@@ -82,16 +82,7 @@
                                     </div>
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
-                                            <li class="show"><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li class="active"><a href="index-2.php">Home One</a></li>
-                                                    <li><a href="index-3.html">Home Two</a></li>
-                                                    <li><a href="index-4.html">Home Three</a></li>
-                                                    <li><a href="index.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
-                                                    <li><a href="index-6.html">Home Six</a></li>
-                                                    <li><a href="index-7.html">Home Seven</a></li>
-                                                </ul>
+                                            <li class="show"><a href="index-2.php">Home</a>
                                             </li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">

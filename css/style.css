@@ -287,7 +287,7 @@ label {
 	bottom: 0;
 	border-radius: 0;
 	left: auto;
-	background-color: #e4a101;
+	background-color: #00e1ff;
 }
 .btn.btn-style-two::after {
 	content: "";
@@ -303,7 +303,7 @@ label {
 	bottom: 0;
 	border-radius: 0;
 	left: auto;
-	background-color: #e4a101;
+	background-color: #00e1ff;
 }
 .btn.btn-style-two:hover::before {
 	right: 0;
@@ -314,7 +314,7 @@ label {
 
 /* scrollUp */
 #scrollUp {
-	background: #E4A101;
+	background: #00e1ff;
 	height: 40px;
 	width: 40px;
 	right: 50px;
@@ -1132,7 +1132,7 @@ ul.minicart .cart-price .new {
 .shop-area.black-bg .product-cart-action a:hover,
 .latest-match-box .tournament-schedule-meta a:hover,
 .features-item .features-list-content .product-tag a:hover::before {
-	background: #e4a101;
+	background: #00e1ff;
 }
 
 /* 4. Breadcrumb */

@@ -124,7 +124,7 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Controller</a>
+                                                                <a href="#">Xbox One Platform</a>
                                                             </h4>
                                                             <div class="cart-price">
                                                                 <span class="new">$229.9</span>
@@ -235,7 +235,7 @@
                                     <a href="#"><img src="img/product/shop_item03.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">xbox one controller</a></h5>
+                                    <h5><a href="#">xbox one Platform</a></h5>
                                     <span>Price: $14.00</span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
@@ -271,7 +271,7 @@
                                     <a href="#"><img src="img/product/shop_item06.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Joy‑Con controllers</a></h5>
+                                    <h5><a href="#">Joy‑Con Platforms</a></h5>
                                     <span>Price: $14.00</span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
@@ -295,7 +295,7 @@
                                     <a href="#"><img src="img/product/shop_item08.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">xbox one controller</a></h5>
+                                    <h5><a href="#">xbox one Platform</a></h5>
                                     <span>Price: $19.00</span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>

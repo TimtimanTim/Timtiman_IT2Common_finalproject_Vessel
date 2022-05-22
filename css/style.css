@@ -2181,7 +2181,7 @@ ul.minicart .cart-price .new {
 	top: 50%;
 	height: 20px;
 	width: 20px;
-	border: 1px solid #e4a101;
+	border: 1px solid #00e1ff;
 	transform: translate(-50%,-50%);
 	border-radius: 50%;
 	transition: .3s linear;
@@ -2191,7 +2191,7 @@ ul.minicart .cart-price .new {
 	opacity: 1;
 }
 .released-game-active .slick-dots li.slick-active button {
-	background: #e4a101;
+	background: #00e1ff;
 }
 
 /* 10. Game Manage */
@@ -2349,7 +2349,7 @@ ul.minicart .cart-price .new {
 }
 .featured-game-content h4 span,
 .featured-game-meta i {
-	color: #e9a301;
+	color: #00e1ff;
 }
 .featured-game-content h4 a:hover {
 	color: #fff;
@@ -2827,7 +2827,7 @@ ul.minicart .cart-price .new {
 	margin-bottom: 0;
 }
 .just-gamers-list ul li:hover .just-gamers-list-icon {
-	border-color:  #e9a301;
+	border-color:  #00e1ff;
 }
 .just-gamers-list ul li:last-child {
 	margin-bottom: 0;

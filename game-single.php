@@ -124,7 +124,7 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Controller</a>
+                                                                <a href="#">Xbox One Platform</a>
                                                             </h4>
                                                             <div class="cart-price">
                                                                 <span class="new">$229.9</span>
@@ -245,14 +245,14 @@
                                 </div>
                                 <div class="game-single-info mb-65">
                                     <ul>
-                                        <li><span>Category :</span> Vertical Shooter</li>
+                                        <li><span>Genre :</span> Vertical Shooter</li>
                                         <li><span>Requirements :</span> PS4 , XBOX ONE , Steam</li>
-                                        <li><span>Multi player :</span> Games Controller System</li>
+                                        <li><span>Multi player :</span> Games Platform System</li>
                                         <li><span>Visual Effect :</span> Operating vero excepturi magnam System</li>
                                     </ul>
                                 </div>
                                 <div class="game-single-title mb-30">
-                                    <h4>Games Controller <span>System</span></h4>
+                                    <h4>Games Platform <span>System</span></h4>
                                 </div>
                                 <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvinar, elit at condimentum dictum, sapien
                                 nibh auctor tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum.

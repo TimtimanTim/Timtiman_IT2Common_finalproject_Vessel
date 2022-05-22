@@ -115,7 +115,7 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Controller</a>
+                                                                <a href="#">Xbox One Platform</a>
                                                             </h4>
                                                             <div class="cart-price">
                                                                 <span class="new">$229.9</span>
@@ -181,7 +181,7 @@
                                     <div class="slider-content">
                                         <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
                                         <h2 data-animation="fadeInUp" data-delay=".4s">Create <span>Manage</span> Matches</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Find technology or people for digital projects in public sector and Find an individual specialist develope researcher.</p>
+                                        <p data-animation="fadeInUp" data-delay=".6s">The Verge’s gaming section brings the latest video game news, reviews of the most exciting releases, and interviews with the industry’s biggest names. </p>
                                         <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
                                     </div>
                                 </div>
@@ -196,7 +196,7 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-7 col-md-11">
                                     <div class="slider-content">
-                                        <h6 data-animation="fadeInUp" data-delay=".4s">FPS Game</h6>
+                                        <h6 data-animation="fadeInUp" data-delay=".4s">TOP GAMES</h6>
                                         <h2 data-animation="fadeInUp" data-delay=".4s">Valorant <span>Riot</span> Games</h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">A free-to-play 5v5 character-based tactical shooter and objective-based game, developed and published by Riot Games,</p>
                                         <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
@@ -218,9 +218,8 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three text-center mb-20">
-                                <h2>released <span>GAMES</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                known issue where certain skin strategic</p>
+                                <h2>TRENDING <span>GAMES</span></h2>
+                                <p>Here are the hottest games and reviews that won't waste your time with unrelated nonsense.</p>
                             </div>
                         </div>
                     </div>
@@ -244,16 +243,16 @@
                                                     <i class="fas fa-star"></i>
                                                 </div>
                                             </div>
-                                            <h4>Call <span>of Duty</span></h4>
+                                            <h4>Valo<span>rant</span></h4>
                                             <div class="released-game-list mb-15">
                                                 <ul>
-                                                    <li><span>Category :</span>Virtual Game</li>
-                                                    <li><span>Model :</span>Compete 100 players</li>
-                                                    <li><span>Controller :</span>Playstation 5 , Xbox , PS4</li>
+                                                    <li><span>Genre :</span>First Person Shooter</li>
+                                                    <li><span>Developer :</span>Riot Games</li>
+                                                    <li><span>Platform :</span>PC</li>
                                                 </ul>
                                             </div>
-                                            <p>Compete with 100 players on a remote thats island for winner takes showdown known issue</p>
-                                            <a href="#" class="btn btn-style-two">buy now</a>
+                                            <p>Compete with other 5 players where one team attacks and the other defends. Search and Destroy.</p>
+                                            <a href="#" class="btn btn-style-two">play Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -274,15 +273,15 @@
                                                     <i class="fas fa-star"></i>
                                                 </div>
                                             </div>
-                                            <h4>Battle <span>Grounds</span></h4>
+                                            <h4>Mine<span>craft</span></h4>
                                             <div class="released-game-list mb-15">
                                                 <ul>
-                                                    <li><span>Category :</span>Virtual Game</li>
-                                                    <li><span>Model :</span>Compete 100 players</li>
-                                                    <li><span>Controller :</span>Playstation 5 , Xbox , PS4</li>
+                                                    <li><span>Genre :</span>Simulation, Sandbox</li>
+                                                    <li><span>Developer :</span>Mojang Studios</li>
+                                                    <li><span>Platform :</span>PC, Console, Mobile Devices</li>
                                                 </ul>
                                             </div>
-                                            <p>Compete with 100 players on a remote thats island for winner takes showdown known issue</p>
+                                            <p>Explore infinite worlds, create, explore and survive alone or with friends</p>
                                             <a href="#" class="btn btn-style-two">buy now</a>
                                         </div>
                                     </div>
@@ -304,15 +303,15 @@
                                                     <i class="fas fa-star"></i>
                                                 </div>
                                             </div>
-                                            <h4>Apex <span>Legends</span></h4>
+                                            <h4>GhostWire <span>Tokyo</span></h4>
                                             <div class="released-game-list mb-15">
                                                 <ul>
-                                                    <li><span>Category :</span>Virtual Game</li>
-                                                    <li><span>Model :</span>Compete 100 players</li>
-                                                    <li><span>Controller :</span>Playstation 5 , Xbox , PS4</li>
+                                                    <li><span>Genre :</span>Action, Adventure, RPG</li>
+                                                    <li><span>Developer :</span>Bethesda</li>
+                                                    <li><span>Platform :</span>PC, COnsole</li>
                                                 </ul>
                                             </div>
-                                            <p>Compete with 100 players on a remote thats island for winner takes showdown known issue</p>
+                                            <p>Master a powerful arsenal of abilities to unravel the dark truth as you FACE THE UNKNOWN in Ghostwire: Tokyo.</p>
                                             <a href="#" class="btn btn-style-two">buy now</a>
                                         </div>
                                     </div>
@@ -321,7 +320,7 @@
                                     <div class="released-game-item">
                                         <div class="released-game-item-bg"></div>
                                         <div class="released-game-img">
-                                            <img src="img/images/released_game_img03.jpg" alt="">
+                                            <img src="img/images/released_game_img04.jpg" alt="">
                                         </div>
                                         <div class="released-game-content">
                                             <div class="released-game-rating">
@@ -334,15 +333,15 @@
                                                     <i class="fas fa-star"></i>
                                                 </div>
                                             </div>
-                                            <h4>Monster <span>Hunter</span></h4>
+                                            <h4>Dying<span>Light 2</span></h4>
                                             <div class="released-game-list mb-15">
                                                 <ul>
-                                                    <li><span>Category :</span>Virtual Game</li>
-                                                    <li><span>Model :</span>Compete 100 players</li>
-                                                    <li><span>Controller :</span>Playstation 5 , Xbox , PS4</li>
+                                                    <li><span>Genre :</span>Action, Adventure, RPG</li>
+                                                    <li><span>Developer :</span>Techland</li>
+                                                    <li><span>Platform :</span>PC, Console</li>
                                                 </ul>
                                             </div>
-                                            <p>Compete with 100 players on a remote thats island for winner takes showdown known issue</p>
+                                            <p>Use your agility and combat skills to survive, and reshape the world. Your choices matter</p>
                                             <a href="#" class="btn btn-style-two">buy now</a>
                                         </div>
                                     </div>
@@ -361,7 +360,7 @@
                                     <img src="img/images/release_game_nav03.jpg" alt="">
                                 </div>
                                 <div class="released-game-nav-item">
-                                    <img src="img/images/release_game_nav02.jpg" alt="">
+                                    <img src="img/images/release_game_nav04.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -377,8 +376,8 @@
                         <div class="col-xl-5 col-lg-6 col-md-10">
                             <div class="section-title title-style-three white-title mb-70">
                                 <h2>JUST FOR <span>GAMERS</span></h2>
-                                <p>Compete with 100 player on a remote island for winner
-                                known issue where certain strategic</p>
+                                <p>Wield a combination of upgradeable elemental powers and 
+                                    ghost-hunting skills to combat the supernatural threat.</p>
                             </div>
                             <div class="just-gamers-list">
                                 <ul>
@@ -387,8 +386,8 @@
                                             <img src="img/icon/gamer_list_icon01.png" alt="">
                                         </div>
                                         <div class="just-gamers-list-content fix">
-                                            <h5>VR Development</h5>
-                                            <p>See how well critics rating new video game release with 100 players</p>
+                                            <h5>About this Game</h5>
+                                            <p>Explore a unique vision of Tokyo twisted by a supernatural presence.</p>
                                         </div>
                                     </li>
                                     <li>
@@ -397,7 +396,7 @@
                                         </div>
                                         <div class="just-gamers-list-content fix">
                                             <h5>Design & Strategy</h5>
-                                            <p>Village and the subline of her own road, the Line Lane. Pityful a rethoric question</p>
+                                            <p>Explore a unique vision of Tokyo twisted by a supernatural presence. </p>
                                         </div>
                                     </li>
                                     <li>
@@ -405,8 +404,8 @@
                                             <img src="img/icon/gamer_list_icon03.png" alt="">
                                         </div>
                                         <div class="just-gamers-list-content fix">
-                                            <h5>Jungle Pharaoh</h5>
-                                            <p>Village and the subline of her own road, the Line Lane. Pityful a rethoric question</p>
+                                            <h5>Objectives</h5>
+                                            <p>Explore a unique vision of Tokyo twisted by a supernatural presence.</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -434,9 +433,8 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three text-center mb-70">
-                                <h2>JUST FEATURED <span>GAMES</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
+                                <h2>FEATURED <span>GAMES</span></h2>
+                                <p>Here are the featured games and reviews that won't waste your time with unrelated nonsense.</p>
                             </div>
                         </div>
                     </div>
@@ -447,18 +445,18 @@
                                     <img src="img/images/featured_game_thumb01.jpg" alt="">
                                 </div>
                                 <div class="featured-game-content">
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                                 <div class="featured-game-content featured-game-overlay-content">
                                     <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                             </div>
@@ -469,18 +467,18 @@
                                     <img src="img/images/featured_game_thumb02.jpg" alt="">
                                 </div>
                                 <div class="featured-game-content">
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                                 <div class="featured-game-content featured-game-overlay-content">
                                     <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                             </div>
@@ -491,18 +489,18 @@
                                     <img src="img/images/featured_game_thumb03.jpg" alt="">
                                 </div>
                                 <div class="featured-game-content">
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                                 <div class="featured-game-content featured-game-overlay-content">
                                     <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                             </div>
@@ -513,18 +511,18 @@
                                     <img src="img/images/featured_game_thumb04.jpg" alt="">
                                 </div>
                                 <div class="featured-game-content">
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                                 <div class="featured-game-content featured-game-overlay-content">
                                     <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                             </div>
@@ -535,18 +533,18 @@
                                     <img src="img/images/featured_game_thumb06.jpg" alt="">
                                 </div>
                                 <div class="featured-game-content">
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                                 <div class="featured-game-content featured-game-overlay-content">
                                     <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                             </div>
@@ -557,18 +555,18 @@
                                     <img src="img/images/featured_game_thumb05.jpg" alt="">
                                 </div>
                                 <div class="featured-game-content">
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                                 <div class="featured-game-content featured-game-overlay-content">
                                     <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
                                     <div class="featured-game-meta">
                                         <i class="fas fa-bell"></i>
-                                        <span>Playstation 5 , Xbox</span>
+                                        <span>PC, Console</span>
                                     </div>
                                 </div>
                             </div>
@@ -646,7 +644,7 @@
                                 </div>
                                 <div class="product-content">
                                     <div class="product-tag"><a href="#">x-box</a></div>
-                                    <h4><a href="#">Gears 5 Xbox Controller</a></h4>
+                                    <h4><a href="#">Gears 5 Xbox Platform</a></h4>
                                     <div class="product-meta">
                                         <div class="product-price">
                                             <h5>$29.00</h5>

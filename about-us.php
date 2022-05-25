@@ -43,7 +43,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
-                                <p>Exclusive Black Friday ! Offer</p>
+                                <p>Exclusive BLACK FRIDAY offer!</p>
                                 <span class="coming-time" data-countdown="2021/3/15"></span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                                     <ul>
                                         <li>
                                             <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">info@gecoinfo.com</a></p>
+                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -78,24 +78,15 @@
                             <div class="main-menu menu-style-two">
                                 <nav>
                                     <div class="logo">
-                                        <a href="index-2.php"><img src="img/logo/logo.png" alt="Logo"></a>
+                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
-                                            <li><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li><a href="index-2.php">Home One</a></li>
-                                                    <li><a href="index-3.html">Home Two</a></li>
-                                                    <li><a href="index-4.html">Home Three</a></li>
-                                                    <li><a href="index.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
-                                                    <li><a href="index-6.html">Home Six</a></li>
-                                                    <li><a href="index-7.html">Home Seven</a></li>
-                                                </ul>
+                                            <li><a href="home.php">Home</a>
                                             </li>
                                             <li class="show"><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li class="active"><a href="about-us.php">About Story</a></li>
+                                                    <li class="active"><a href="about-us.php">our Story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
                                                     <li><a href="game-single.php">Game Single</a></li>
                                                 </ul>
@@ -186,12 +177,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb-content text-center">
-                                <h2>about <span>story</span></h2>
+                                <h2>our <span>story</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index-2.php">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="home.php">Home</a></li>
                                         <li class="breadcrumb-item"><a href="#">pages</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">About stroy</li>
+                                        <li class="breadcrumb-item active" aria-current="page">our story</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -214,13 +205,12 @@
                         </div>
                         <div class="col-xl-5 col-lg-6">
                             <div class="section-title title-style-three mb-25">
-                                <h2>released <span>GAMES</span></h2>
+                                <h2>ABOUT <span>US</span></h2>
                             </div>
                             <div class="inner-about-content">
-                                <h5>Monica Global Publishing for Marketing</h5>
-                                <p>Compete with 100 players on a remote Lorem Ipsn gravida. Pro ain gravida nibh vel velit an auctor aliqueenean
-                                ollicitudin ain gravida nibh vel version an ipsum.</p>
-                                <p>Lorem Ipsn gravida. Pro ain gravida nibh vevelit auctor aliqueenean ollicitudin ain gravida nibh vel version an ipsum.</p>
+                                <h5>Welcome to the Vessel!</h5>
+                                <p style="text-align: justify">A game-centered website where we post relevant reviews, stories, news and updates.</p>
+                                <p style="text-align: justify">On Vessel we always aim to inform, entertain, and inspire through our mix of news, reviews, features, tips, buying guides, and videos. </p>
                                 <a href="#" class="btn btn-style-two">BUY THEME</a>
                             </div>
                         </div>
@@ -237,8 +227,7 @@
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three white-title text-center mb-70">
                                 <h2>gaming Latest <span>matches</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
+                                <p>Schedule of all esports matches around the world.</p>
                             </div>
                         </div>
                     </div>
@@ -249,11 +238,11 @@
                                     <img src="img/images/latest_match_thumb01.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">Forza <span>Horizon ii</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                    <h3><a href="https://valorantesports.com/schedule">Valo<span>rant</span></a></h3>
+                                    <p>See the latest schedule of VALORANT Champion Tour (VCT).</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$1,000,000</span></h5>
+                                        <a href="https://valorantesports.com/schedule">watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -264,11 +253,11 @@
                                     <img src="img/images/latest_match_thumb02.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">shooting <span>land</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                    <h3><a href="https://escorenews.com/en/dota-2/d2cl-season-11">DOTA <span>2</span></a></h3>
+                                    <p>See the latest schedule and full information about Dota 2 Champions League Season 11.</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$20,000</span></h5>
+                                        <a href="https://escorenews.com/en/dota-2/d2cl-season-11">Watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -279,11 +268,11 @@
                                     <img src="img/images/latest_match_thumb03.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">Thanos <span>Sky ii</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                    <h3><a href="https://lolesports.com/schedule?leagues=msi">League of <span>Legends</span></a></h3>
+                                    <p>See the latest schedule of League of Legends Mid-Season Invitational 2022</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$250,000</span></h5>
+                                        <a href="https://lolesports.com/schedule?leagues=msi">Watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -294,11 +283,11 @@
                                     <img src="img/images/latest_match_thumb04.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">Call Of <span>Duty ii</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                    <h3><a href="https://egamersworld.com/counterstrike/latest">CS:<span>GO</span></a></h3>
+                                    <p>See the latest schedule of the upcoming CS:GO Pinnacle Cup IV</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$100,000</span></h5>
+                                        <a href="https://egamersworld.com/counterstrike/latest">Watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -314,9 +303,8 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three text-center mb-70">
-                                <h2>Our team <span>member</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
+                                <h2>Our <span>Team</span></h2>
+                                <p>Meet the team behind the website you've been reading, plus find out what they are playing and loving right now.</p>
                             </div>
                         </div>
                     </div>
@@ -335,8 +323,8 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h4><a href="#">tomas aleman</a></h4>
-                                    <span>Marketing CEO</span>
+                                    <h4><a href="#">Timothy John Timtiman</a></h4>
+                                    <span>Chief Executive Officer</span>
                                 </div>
                             </div>
                         </div>
@@ -354,8 +342,8 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h4><a href="#">james wiseman</a></h4>
-                                    <span>Marketing CEO</span>
+                                    <h4><a href="#">Timothy John Timtiman</a></h4>
+                                    <span>President of Marketing</span>
                                 </div>
                             </div>
                         </div>
@@ -373,8 +361,8 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h4><a href="#">emily watson</a></h4>
-                                    <span>Head of Iaea</span>
+                                    <h4><a href="#">Timothy John Timtiman</a></h4>
+                                    <span>Lead Developer</span>
                                 </div>
                             </div>
                         </div>
@@ -392,8 +380,8 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h4><a href="#">alexandra paol</a></h4>
-                                    <span>Web Developer</span>
+                                    <h4><a href="#">Timothy John Timtiman</a></h4>
+                                    <span>Technical</span>
                                 </div>
                             </div>
                         </div>
@@ -512,8 +500,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-fire"><img src="img/images/footer_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt=""></div>
+                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
+                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
             </div>
             <div class="copyright-wrap s-copyright-wrap">
                 <div class="container">

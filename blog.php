@@ -43,7 +43,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
-                                <p>Exclusive Black Friday ! Offer</p>
+                                <p>Exclusive BLACK FRIDAY offer!</p>
                                 <span class="coming-time" data-countdown="2021/3/15"></span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                                     <ul>
                                         <li>
                                             <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">info@gecoinfo.com</a></p>
+                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -78,24 +78,16 @@
                             <div class="main-menu menu-style-two">
                                 <nav>
                                     <div class="logo">
-                                        <a href="index-2.php"><img src="img/logo/logo.png" alt="Logo"></a>
+                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
-                                            <li><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li><a href="index-2.php">Home One</a></li>
-                                                    <li><a href="index-3.html">Home Two</a></li>
-                                                    <li><a href="index-4.html">Home Three</a></li>
-                                                    <li><a href="index.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
-                                                    <li><a href="index-6.html">Home Six</a></li>
-                                                    <li><a href="index-7.html">Home Seven</a></li>
-                                                </ul>
+                                            <li><a href="home.php">Home</a>
+
                                             </li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li><a href="about-us.php">About Story</a></li>
+                                                    <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
                                                     <li><a href="game-single.php">Game Single</a></li>
                                                 </ul>
@@ -189,7 +181,7 @@
                                 <h2>Blog Right <span>Sidebar</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index-2.php">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="home.php">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Blog Right Sidebar</li>
                                     </ol>
                                 </nav>
@@ -566,8 +558,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-fire"><img src="img/images/footer_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt=""></div>
+                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
+                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
             </div>
             <div class="copyright-wrap s-copyright-wrap">
                 <div class="container">

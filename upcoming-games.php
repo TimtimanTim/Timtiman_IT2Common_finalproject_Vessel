@@ -43,7 +43,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
-                                <p>Exclusive Black Friday ! Offer</p>
+                                <p>Exclusive BLACK FRIDAY offer!</p>
                                 <span class="coming-time" data-countdown="2021/3/15"></span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                                     <ul>
                                         <li>
                                             <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">info@gecoinfo.com</a></p>
+                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -78,24 +78,15 @@
                             <div class="main-menu menu-style-two">
                                 <nav>
                                     <div class="logo">
-                                        <a href="index-2.php"><img src="img/logo/logo.png" alt="Logo"></a>
+                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
-                                            <li><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li><a href="index-2.php">Home One</a></li>
-                                                    <li><a href="index-3.html">Home Two</a></li>
-                                                    <li><a href="index-4.html">Home Three</a></li>
-                                                    <li><a href="index.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
-                                                    <li><a href="index-6.html">Home Six</a></li>
-                                                    <li><a href="index-7.html">Home Seven</a></li>
-                                                </ul>
+                                            <li><a href="home.php">Home</a>
                                             </li>
                                             <li class="show"><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li><a href="about-us.php">About Story</a></li>
+                                                    <li><a href="about-us.php">our story</a></li>
                                                     <li class="active"><a href="upcoming-games.php">Upcoming Games</a></li>
                                                     <li><a href="game-single.php">Game Single</a></li>
                                                 </ul>
@@ -189,7 +180,7 @@
                                 <h2>Upcoming <span>Games</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index-2.php">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="home.php">Home</a></li>
                                         <li class="breadcrumb-item"><a href="#">pages</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Games</li>
                                     </ol>
@@ -209,18 +200,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">zombie land</a></h4>
+                                        <span>OCTOBER 25, 2022</span>
+                                        <h4><a href="#">God of War Ragnarök</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$80</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p style="text-align: justify">God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb01.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,18 +220,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">call of duty</a></h4>
+                                        <span>SEPTEMBER 01, 2022</span>
+                                        <h4><a href="#">Hogwarts Legacy</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$30</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p style="text-align: justify">Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb02.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>PRESALE</a>
                                     </div>
                                 </div>
                             </div>
@@ -249,18 +240,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">sky hunter</a></h4>
+                                        <span>JANUARY 03, 2023</span>
+                                        <h4><a href="#">Gotham Knights</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$45</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb03.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -269,18 +260,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">NEW RELEASED!</a></h4>
+                                        <span>2023</span>
+                                        <h4><a href="#">Black Myth: Wukong</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$55</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p>Black Myth: Wukong is an upcoming action role-playing game by Chinese indie developer Game Science, based on the classical Chinese novel.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb04.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -289,18 +280,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">NEW RELEASED!</a></h4>
+                                        <span>August 23, 2022</span>
+                                        <h4><a href="#"> Saints Row Reboot</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$22</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p>Saints Row is an upcoming action-adventure video game and reboot of the Saints Row seriesn and published by Deep Silver, it is scheduled for release on August 23, 2022 </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb05.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -309,18 +300,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">NEW RELEASED!</a></h4>
+                                        <span>2022</span>
+                                        <h4><a href="#">Avatar: Frontiers of Pandora</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$35</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p>Avatar: Frontiers of Pandora is an upcoming open-world action-adventure video game based on James Cameron's Avatar film series</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb06.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -337,8 +328,7 @@
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three white-title text-center mb-70">
                                 <h2>gaming Latest <span>matches</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
+                                <p>Schedule of all esports matches around the world.</p>
                             </div>
                         </div>
                     </div>
@@ -349,11 +339,11 @@
                                     <img src="img/images/latest_match_thumb01.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">Forza <span>Horizon ii</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                    <h3><a href="https://valorantesports.com/schedule">Valo<span>rant</span></a></h3>
+                                    <p>See the latest schedule of VALORANT Champion Tour (VCT).</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$1,000,000</span></h5>
+                                        <a href="https://valorantesports.com/schedule">watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -364,11 +354,11 @@
                                     <img src="img/images/latest_match_thumb02.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">shooting <span>land</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                <h3><a href="https://escorenews.com/en/dota-2/d2cl-season-11">DOTA <span>2</span></a></h3>
+                                    <p>See the latest schedule and full information about Dota 2 Champions League Season 11.</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$20,000</span></h5>
+                                        <a href="https://escorenews.com/en/dota-2/d2cl-season-11">Watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -379,11 +369,11 @@
                                     <img src="img/images/latest_match_thumb03.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">Thanos <span>Sky ii</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                <h3><a href="https://lolesports.com/schedule?leagues=msi">League of <span>Legends</span></a></h3>
+                                    <p>See the latest schedule of League of Legends Mid-Season Invitational 2022</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$250,000</span></h5>
+                                        <a href="https://lolesports.com/schedule?leagues=msi">Watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -394,11 +384,11 @@
                                     <img src="img/images/latest_match_thumb04.jpg" alt="">
                                 </div>
                                 <div class="tournament-schedule-content">
-                                    <h3><a href="#">Call Of <span>Duty ii</span></a></h3>
-                                    <p>Find tecology people for digital projects in public There are many variations.</p>
+                                <h3><a href="https://egamersworld.com/counterstrike/latest">CS:<span>GO</span></a></h3>
+                                    <p>See the latest schedule of the upcoming CS:GO Pinnacle Cup IV</p>
                                     <div class="tournament-schedule-meta">
-                                        <h5>price : <span>$125,00</span></h5>
-                                        <a href="#">Joining</a>
+                                        <h5>prizepool : <span>$100,000</span></h5>
+                                        <a href="https://egamersworld.com/counterstrike/latest">Watch Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -548,8 +538,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-fire"><img src="img/images/footer_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt=""></div>
+                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
+                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
             </div>
             <div class="copyright-wrap s-copyright-wrap">
                 <div class="container">

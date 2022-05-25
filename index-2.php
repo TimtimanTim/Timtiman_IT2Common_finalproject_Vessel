@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Geco - eSports Gaming HTML5 Template</title>
+        <title>timothy</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,8 +43,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
-                                <p>Exclusive Black Friday ! Offer</p>
-                                <span class="coming-time" data-countdown="2021/3/15"></span>
+                                <p>Exclusive BLACK FRIDAY offer!</p>
+                                <span class="coming-time" data-countdown="2022/5/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -61,7 +61,7 @@
                                     <ul>
                                         <li>
                                             <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">info@gecoinfo.com</a></p>
+                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -78,15 +78,15 @@
                             <div class="main-menu menu-style-two">
                                 <nav>
                                     <div class="logo">
-                                        <a href="index-2.php"><img src="img/logo/logo.png" alt="Logo"></a>
+                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
-                                            <li class="show"><a href="index-2.php">Home</a>
+                                            <li class="show"><a href="home.php">Home</a>
                                             </li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li><a href="about-us.php">About Story</a></li>
+                                                    <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
                                                     <li><a href="game-single.php">Game Single</a></li>
                                                 </ul>
@@ -252,7 +252,7 @@
                                                 </ul>
                                             </div>
                                             <p>Compete with other 5 players where one team attacks and the other defends. Search and Destroy.</p>
-                                            <a href="#" class="btn btn-style-two">play Now</a>
+                                            <a href="game-single.php" class="btn btn-style-two">play Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -591,9 +591,8 @@
                                     <img src="img/icon/cta_icon.png" alt="">
                                 </div>
                                 <div class="section-title title-style-three white-title mb-50">
-                                    <h2>WORLDS MEET <span>Real</span></h2>
-                                    <p>Compete with 100 player on a remote island for winner
-                                        known issue where certain strategic</p>
+                                    <h2>BE THE <span>CHAMPION</span></h2>
+                                    <p>Who will be at the top? Watch now and see what team will conquer the world.</p>
                                 </div>
                                 <div class="cta-btn">
                                     <a href="#" class="btn btn-style-two">VIEW SCHEDULE</a>
@@ -612,8 +611,7 @@
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three white-title text-center mb-40">
                                 <h2>Gaming Products <span>Corner</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
+                                <p>Shop the latest Gaming products such as ASUS, MSI, RAZER, ACER and more!</p>
                             </div>
                         </div>
                     </div>
@@ -624,11 +622,11 @@
                                     <a href="#"><img src="img/product/s_product_img01.jpg" alt=""></a>
                                 </div>
                                 <div class="product-content">
-                                    <div class="product-tag"><a href="#">t-shirt</a></div>
-                                    <h4><a href="#">Women Black T-shirt</a></h4>
+                                    <div class="product-tag"><a href="#">Laptop</a></div>
+                                    <h4><a href="#">Asus ROG Zephyrus G14 22</a></h4>
                                     <div class="product-meta">
                                         <div class="product-price">
-                                            <h5>$29.00</h5>
+                                            <h5>₱86,443.88</h5>
                                         </div>
                                         <div class="product-cart-action">
                                             <a href="#"><i class="fas fa-shopping-basket"></i></a>
@@ -643,11 +641,11 @@
                                     <a href="#"><img src="img/product/s_product_img02.jpg" alt=""></a>
                                 </div>
                                 <div class="product-content">
-                                    <div class="product-tag"><a href="#">x-box</a></div>
-                                    <h4><a href="#">Gears 5 Xbox Platform</a></h4>
+                                    <div class="product-tag"><a href="#">Headphones</a></div>
+                                    <h4><a href="#">Logitech G733</a></h4>
                                     <div class="product-meta">
                                         <div class="product-price">
-                                            <h5>$29.00</h5>
+                                            <h5>₱12,300</h5>
                                         </div>
                                         <div class="product-cart-action">
                                             <a href="#"><i class="fas fa-shopping-basket"></i></a>
@@ -663,10 +661,10 @@
                                 </div>
                                 <div class="product-content">
                                     <div class="product-tag"><a href="#">graphics</a></div>
-                                    <h4><a href="#">GeForce RTX 2070</a></h4>
+                                    <h4><a href="#">GeForce RTX 3060</a></h4>
                                     <div class="product-meta">
                                         <div class="product-price">
-                                            <h5>$29.00</h5>
+                                            <h5>₱36,517.51</h5>
                                         </div>
                                         <div class="product-cart-action">
                                             <a href="#"><i class="fas fa-shopping-basket"></i></a>
@@ -681,11 +679,11 @@
                                     <a href="#"><img src="img/product/s_product_img04.jpg" alt=""></a>
                                 </div>
                                 <div class="product-content">
-                                    <div class="product-tag"><a href="#">VR-Box</a></div>
-                                    <h4><a href="#">Virtual Reality Smiled</a></h4>
+                                    <div class="product-tag"><a href="#">Chair</a></div>
+                                    <h4><a href="#">Secret Titan Evo 22</a></h4>
                                     <div class="product-meta">
                                         <div class="product-price">
-                                            <h5>$29.00</h5>
+                                            <h5>₱26,399.5</h5>
                                         </div>
                                         <div class="product-cart-action">
                                             <a href="#"><i class="fas fa-shopping-basket"></i></a>
@@ -697,14 +695,14 @@
                         <div class="col-xl-3">
                             <div class="shop-item">
                                 <div class="product-thumb">
-                                    <a href="#"><img src="img/product/s_product_img04.jpg" alt=""></a>
+                                    <a href="#"><img src="img/product/s_product_img05.jpg" alt=""></a>
                                 </div>
                                 <div class="product-content">
-                                    <div class="product-tag"><a href="#">VR-Box</a></div>
-                                    <h4><a href="#">Virtual Reality Smiled</a></h4>
+                                    <div class="product-tag"><a href="#">Monitor</a></div>
+                                    <h4><a href="#">Razer Raptor 27</a></h4>
                                     <div class="product-meta">
                                         <div class="product-price">
-                                            <h5>$29.00</h5>
+                                            <h5>₱41,779.48</h5>
                                         </div>
                                         <div class="product-cart-action">
                                             <a href="#"><i class="fas fa-shopping-basket"></i></a>
@@ -725,8 +723,7 @@
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title title-style-three text-center mb-70">
                                 <h2>Latest News <span>Articles</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
+                                <p>Here are the lates news articales related to gaming.</p>
                             </div>
                         </div>
                     </div>
@@ -737,15 +734,14 @@
                                     <a href="#"><img src="img/blog/s_blog_thumb01.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-post-content">
-                                    <h4><a href="#">Shooter action video game</a></h4>
+                                    <h4><a href="#">Finding A PS5 Might Get Easier This Year</a></h4>
                                     <div class="blog-meta">
                                         <ul>
-                                            <li><i class="far fa-clock"></i>July 4, 2020</li>
-                                            <li><i class="fas fa-tag"></i><a href="#">Shooter</a></li>
+                                            <li><i class="far fa-clock"></i>March 24, 2022</li>
+                                            <li><i class="fas fa-tag"></i><a href="#">Console</a></li>
                                         </ul>
                                     </div>
-                                    <p>Compete with 100 players on a remote island for winner takes showdown known for issue where
-                                    certain skin strategic [...]</p>
+                                    <p style="text-align: justify">Sony has projected it will sell many millions more PlayStation 5 units in the current fiscal year and this could be a sign that the company [...]</p>
                                 </div>
                             </div>
                         </div>
@@ -755,15 +751,14 @@
                                     <a href="#"><img src="img/blog/s_blog_thumb02.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-post-content">
-                                    <h4><a href="#">multiplayer environments</a></h4>
+                                    <h4><a href="#">Gotham Knights Will Only Be Available On PC and Consoles</a></h4>
                                     <div class="blog-meta">
                                         <ul>
-                                            <li><i class="far fa-clock"></i>July 4, 2020</li>
-                                            <li><i class="fas fa-tag"></i><a href="#">Shooter</a></li>
+                                            <li><i class="far fa-clock"></i>March 24, 2022</li>
+                                            <li><i class="fas fa-tag"></i><a href="#">Game</a></li>
                                         </ul>
                                     </div>
-                                    <p>Compete with 100 players on a remote island for winner takes showdown known for issue where
-                                    certain skin strategic [...]</p>
+                                    <p style="text-align: justify">Gotham Knights developer Warner Bros. Montreal has revealed new gameplay footage for its upcoming [...]</p>
                                 </div>
                             </div>
                         </div>
@@ -773,15 +768,14 @@
                                     <a href="#"><img src="img/blog/s_blog_thumb03.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-post-content">
-                                    <h4><a href="#">Bullet Force Multiplayer</a></h4>
+                                    <h4><a href="#">GameStop now has its own wallet for crypto and NFTs</a></h4>
                                     <div class="blog-meta">
                                         <ul>
-                                            <li><i class="far fa-clock"></i>July 4, 2020</li>
-                                            <li><i class="fas fa-tag"></i><a href="#">Shooter</a></li>
+                                            <li><i class="far fa-clock"></i>March 25, 2022</li>
+                                            <li><i class="fas fa-tag"></i><a href="#">Crypto</a></li>
                                         </ul>
                                     </div>
-                                    <p>Compete with 100 players on a remote island for winner takes showdown known for issue where
-                                    certain skin strategic [...]</p>
+                                    <p style="text-align: justify">GameStop has launched a beta for its very own Ethereum wallet that will let users store, send, and receive [...]</p>
                                 </div>
                             </div>
                         </div>
@@ -809,7 +803,7 @@
                                         <form action="#">
                                             <div class="newsletter-form-grp">
                                                 <i class="far fa-envelope"></i>
-                                                <input type="email" placeholder="Enter your email...">
+                                                <input type="email" placeholder="Enter your email..">
                                             </div>
                                             <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
                                         </form>
@@ -847,11 +841,11 @@
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#">Graphics (26)</a></li>
-                                        <li><a href="#">Backgrounds (11)</a></li>
-                                        <li><a href="#">Fonts (9)</a></li>
-                                        <li><a href="#">Music (3)</a></li>
-                                        <li><a href="#">Photography (3)</a></li>
+                                        <li><a href="#">Laptop (106)</a></li>
+                                        <li><a href="#">Headset (34)</a></li>
+                                        <li><a href="#">Monitor (59)</a></li>
+                                        <li><a href="#">Games (1012)</a></li>
+                                        <li><a href="#">Others (33)</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -900,15 +894,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-fire"><img src="img/images/footer_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt=""></div>
+                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
+                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
             </div>
             <div class="copyright-wrap s-copyright-wrap">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                                <p>Copyright © 2022 <a href="#">Geco</a> All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">

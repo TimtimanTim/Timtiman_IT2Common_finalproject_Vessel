@@ -43,7 +43,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
-                                <p>Exclusive Black Friday ! Offer</p>
+                                <p>Exclusive BLACK FRIDAY offer!</p>
                                 <span class="coming-time" data-countdown="2021/3/15"></span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                                     <ul>
                                         <li>
                                             <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">info@gecoinfo.com</a></p>
+                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -78,24 +78,14 @@
                             <div class="main-menu menu-style-two">
                                 <nav>
                                     <div class="logo">
-                                        <a href="index-2.php"><img src="img/logo/logo.png" alt="Logo"></a>
+                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
-                                            <li><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li><a href="index-2.php">Home One</a></li>
-                                                    <li><a href="index-3.html">Home Two</a></li>
-                                                    <li><a href="index-4.html">Home Three</a></li>
-                                                    <li><a href="index.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
-                                                    <li><a href="index-6.html">Home Six</a></li>
-                                                    <li><a href="index-7.html">Home Seven</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="home.php">Home</a>
                                             <li class="show"><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li><a href="about-us.php">About Story</a></li>
+                                                    <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
                                                     <li class="active"><a href="game-single.php">Game Single</a></li>
                                                 </ul>
@@ -186,10 +176,10 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb-content text-center">
-                                <h2>Upcoming <span>Games</span></h2>
+                                <h2>Game <span>Single</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index-2.php">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="home.php">Home</a></li>
                                         <li class="breadcrumb-item"><a href="#">pages</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">game single</li>
                                     </ol>
@@ -209,22 +199,25 @@
                             <div class="game-single-content">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4>welcome PLAY FOR EVERYONE zombie <span>land!</span></h4>
+                                        <span>JUNE 02, 2020</span>
+                                        <h4>Riot Games: <span>Valorant</span></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>FREE TO PLAY</h5>
                                     </div>
                                 </div>
-                                <p><span>Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris vitae lacus commodo iaculis eget vitae
-                                magna. Nam leohe a volutpat quis iaculis at, viverra id quam. Morbi pharetra, libero ut tempor finibus, metus massa
-                                pharetra dui, ornare pharetra felis risus eu quam. Nunc consectetur mi ac tristique eleifend. Phasellus eleifend
-                                pharetra ante non viverra. Curabitur iaculis ultrices felis in consequat.</p>
-                                <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvinar, elit at condimentum dictum, sapien
-                                nibh auctor tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum.
-                                Curabitr ut lacus vitae tellus lacinia pretium. Proin vestibulum sollcitudin tortor, quis auctor mi rutrum non. Donec
-                                non eros eget purus lobortis imperdiet ac vitae est. Interdum et masuda fames ac ante ipsum primis in faucibus. Duis
-                                ultricies mi sed lorem blandit, non sodales sapien fermentum. Donec ultricies, turpis a sagittis suscipit</p>
+                                <p style="text-align: justify">Valorant is a free-to-play first-person hero shooter 
+                                    developed and published by Riot Games, for Microsoft Windows. 
+                                    First teased under the codename Project A in October 2019, the game began 
+                                    a closed beta period with limited access on April 7, 2020, followed by an
+                                     official release on June 2, 2020.</p>
+                                <p style="text-align: justify">Blend your style and experience on a global, 
+                                    competitive stage. You have 13 rounds to 
+                                    attack and defend your side using sharp 
+                                    gunplay and tactical abilities. And, with 
+                                    one life per-round, you'll need to think faster than your 
+                                    opponent if you want to survive. Take on foes across Competitive 
+                                    and Unranked modes as well as Deathmatch and Spike Rush.</p>
                                 <div class="game-single-img">
                                     <div class="row">
                                         <div class="col-sm-6">
@@ -235,11 +228,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvinar, elit at condimentum dictum, sapien
-                                nibh auctor tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum.
-                                Curabitr ut lacus vitae tellus lacinia pretium. Proin vestibulum sollcitudin tortor, quis auctor mi rutrum non. Donec
-                                non eros eget purus lobortis imperdiet ac vitae est. Interdum et masuda fames ac ante ipsum primis in faucibus. Duis
-                                ultricies mi sed lorem blandit, non sodales sapien fermentum. Donec ultricies, turpis a sagittis suscipit</p>
+                                <div class="uc-game-head-title">
+                                        <h4>YOUR AGENTS: <span>CREATIVITY IS YOUR GREATEST WEAPON</span></h4>
+                                    </div>
+                                <p style="text-align: justify">More than guns and bullets, you’ll choose an 
+                                    Agent armed with adaptive, swift, and lethal abilities that create opportunities 
+                                    to let your gunplay shine. No two Agents play alike, just as no two highlight 
+                                    reels will look the same.</p>
+                                <div class="uc-game-head-title">
+                                        <h4>YOUR MAPS: <span>FIGHT AROUND THE WORLD</span></h4>
+                                    </div>
+                                <p style="text-align: justify">Each map is a playground to showcase your creative 
+                                thinking. Purpose-built for team strategies, spectacular plays, and clutch moments.
+                                 Make the play others will imitate for years to come.</p>
                                 <div class="game-single-title mt-60 mb-30">
                                     <h4>Good to Know</h4>
                                 </div>
@@ -304,18 +305,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">zombie land</a></h4>
+                                    <span>OCTOBER 25, 2022</span>
+                                        <h4><a href="#">God of War Ragnarök</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$80</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p style="text-align: justify">God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb01.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -324,18 +325,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">call of duty</a></h4>
+                                    <span>SEPTEMBER 01, 2022</span>
+                                        <h4><a href="#">Hogwarts Legacy</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$30</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p style="text-align: justify">Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb02.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>PRESALE</a>
                                     </div>
                                 </div>
                             </div>
@@ -344,18 +345,18 @@
                             <div class="upcoming-game-item mb-40">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>SEPTEMBER 22, 2020</span>
-                                        <h4><a href="#">sky hunter</a></h4>
+                                    <span>JANUARY 03, 2023</span>
+                                        <h4><a href="#">Gotham Knights</a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$19</h5>
+                                        <h5>$45</h5>
                                     </div>
                                 </div>
-                                <p>Compete with players remote island winner takes showdown known issue.</p>
+                                <p>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb03.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>BUY Now</a>
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -475,8 +476,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-fire"><img src="img/images/footer_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt=""></div>
+                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
+                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
             </div>
             <div class="copyright-wrap s-copyright-wrap">
                 <div class="container">

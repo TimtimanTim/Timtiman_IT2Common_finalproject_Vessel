@@ -33,37 +33,39 @@ if(isset($_REQUEST['login_button']) === true){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iofrm</title>
+    <title>Vessel</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/login-style.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+   
 
 </head>
-<body>
-    <div class="form-body without-side">
-        <div class="website-logo">
-            <a href="index.html">
-                <div class="logo">
-                    <img class="logo-size" src="img/images/logo-light.png" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="row">
-            <div class="img-holder">
-                <div class="bg"></div>
-                <div class="info-holder">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Sign In</h3>
-                        <p>Log in your account to gain access to the vessel.</p>
-                        <form method ="POST">
-                        <?php
+<?php
+echo '<body>';
+echo '<div class="form-body without-side">';
+echo '<div class="website-logo">';
+echo '<a href="index.html">';
+echo '<div class="logo">';
+echo '<img class="logo-size" src="img/images/logo-light.png" alt="">';
+echo '</div>';
+echo '</a>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="img-holder">';
+echo '<div class="bg"></div>';
+echo '<div class="info-holder">';
+echo '<img src="" alt="">';
+echo '</div>';
+echo '</div>';
+echo '<div class="form-holder">';
+echo '<div class="form-content">';
+echo '<div class="form-items">';
+echo '<h3>Sign In</h3>';
+echo '<p>Log in your account to gain access to the vessel.</p>';
+echo '<form method ="POST">';
                         if(isset($_REQUEST['notexist'])===true){
                         echo "<div class='alert alert-danger' role='alert'> Username doest not exist... </div>";
                         }
@@ -78,28 +80,29 @@ if(isset($_REQUEST['login_button']) === true){
                         {
                             echo "<div class='alert alert-info' role='alert'> Thank you... </div>";	
                         }
-                        ?> 
-                        <input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="form_password" placeholder="Password" required>
-                            <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn" name="login_button">Login </button></a>
-                                <span> </span><a href="forget.php">Forget password?</a>
-                            </div>
-                        </form>
-                       
-                        <div class="other-links">
-                            <div class="text">Or login with</div>
-                            <a href=""><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                        </div>
-                        <div class="page-links">
-                            <a href="register.php">Create New Account</a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                        echo '<input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>';
+                        echo '<input class="form-control" type="password" name="form_password" placeholder="Password" required>';
+                        echo '<div class="form-button">';
+                        echo '<button id="submit" type="submit" class="ibtn" name="login_button">Login </button></a>';
+                        echo '<span> </span><a href="forget.php">Forget password?</a>';
+                        echo '</div>';
+                        echo '</form>';
+                        echo '';
+                        echo '<div class="other-links">';
+                        echo '<div class="text">Or login with</div>';
+                        echo '<a href=""><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>';
+                        echo '</div>';
+                        echo '<div class="page-links">';
+                        echo '<a href="register.php">Create New Account</a>';
+                        echo '';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+
+?>    
 <script src="js_1/jquery.min.js"></script>
 <script src="js_1/popper.min.js"></script>
 <script src="js_1/bootstrap.min.js"></script>

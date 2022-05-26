@@ -30,7 +30,7 @@
                 <div class="form-content">
                     <div class="form-items">
                         <h3>Sign Up</h3>
-                        <p>Register new account. It’s quick and easy.</p>
+                        <p>Register new account. It is quick and easy.</p>
                         <form>
                             <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                             <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>

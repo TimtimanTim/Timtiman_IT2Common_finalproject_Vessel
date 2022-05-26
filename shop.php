@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2022/5/31"></span>
+                                <span class="coming-time" data-countdown="2022/6/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -84,7 +84,7 @@
                                         <ul>
                                             <li><a href="home.php">Home</a>
                                             </li>
-                                            <li><a href="#">Pages</a>
+                                            <li><a href="#">About</a>
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
@@ -98,6 +98,15 @@
 
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
+                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">Account Settings</a></li>
+                                                    <li><a href="#">Orders History</a></li>
+                                                    <li><a href="#">Activity</a></li>
+                                                    <li><a href="#">Notification</a></li>
+                                                    <li><a href="#">Messages</a></li>
+                                                    <li><a href="index.php">Logout</a></li>
+                                                </ul>
                                         </ul>
                                     </div>
                                     <div class="header-action">
@@ -178,7 +187,7 @@
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="home.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="#">pages</a></li>
+                                        <li class="breadcrumb-item"><a href="#">About</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">store</li>
                                     </ol>
                                 </nav>
@@ -199,8 +208,17 @@
                                     <a href="#"><img src="img/product/shop_item01.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Asus ROG Zephyrus G14 22</a></h5>
-                                    <span>Price: ₱86,443.88</span>
+                                    <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[6]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[6]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -211,8 +229,17 @@
                                     <a href="#"><img src="img/product/shop_item02.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">GeForce RTX 3060</a></h5>
-                                    <span>Price: ₱36,517.51</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[7]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[7]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -223,8 +250,17 @@
                                     <a href="#"><img src="img/product/shop_item03.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Secret Titan Evo 22</a></h5>
-                                    <span>Price: ₱26,399.5</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[8]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[8]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -235,8 +271,17 @@
                                     <a href="#"><img src="img/product/shop_item04.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Razer Raptor 27</a></h5>
-                                    <span>Price: ₱41,779.48</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[9]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[9]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -247,8 +292,17 @@
                                     <a href="#"><img src="img/product/shop_item05.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Logitech G733</a></h5>
-                                    <span>Price: ₱12,300</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[10]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[10]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -259,8 +313,17 @@
                                     <a href="#"><img src="img/product/shop_item06.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Nintendo Switch</a></h5>
-                                    <span>Price: ₱15,648.76</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[11]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[11]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -271,8 +334,17 @@
                                     <a href="#"><img src="img/product/shop_item07.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">ROG Phone 5s Pro</a></h5>
-                                    <span>Price: ₱54,003.36</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[12]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[12]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -283,8 +355,17 @@
                                     <a href="#"><img src="img/product/shop_item08.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Tower Gaming Desktop</a></h5>
-                                    <span>Price: ₱104,621.66</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[13]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[13]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>
@@ -295,8 +376,17 @@
                                     <a href="#"><img src="img/product/shop_item09.jpg" alt=""></a>
                                 </div>
                                 <div class="accessories-content">
-                                    <h5><a href="#">Playstation 5</a></h5>
-                                    <span>Price: ₱26,162.75</span>
+                                <h5><a href="#">                                        
+                                    <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[14]->name; 
+                                        ?>
+                                        </a>
+                                    </h5>
+                                    <span><?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[14]->price; 
+                                        ?></span>
                                     <a href="#" class="shop-add-action">Add to cart</a>
                                 </div>
                             </div>

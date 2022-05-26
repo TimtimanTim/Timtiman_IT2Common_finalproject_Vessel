@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2022/5/31"></span>
+                                <span class="coming-time" data-countdown="2022/6/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -83,7 +83,7 @@
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
                                             <li><a href="home.php">Home</a>
-                                            <li class="show"><a href="#">Pages</a>
+                                            <li class="show"><a href="#">About</a>
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>                                                    
@@ -96,6 +96,15 @@
 
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
+                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">Account Settings</a></li>
+                                                    <li><a href="#">Orders History</a></li>
+                                                    <li><a href="#">Activity</a></li>
+                                                    <li><a href="#">Notification</a></li>
+                                                    <li><a href="#">Messages</a></li>
+                                                    <li><a href="index.php">Logout</a></li>
+                                                </ul>
                                         </ul>
                                     </div>
                                     <div class="header-action">
@@ -176,7 +185,7 @@
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="home.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="#">pages</a></li>
+                                        <li class="breadcrumb-item"><a href="#">About</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">game single</li>
                                     </ol>
                                 </nav>

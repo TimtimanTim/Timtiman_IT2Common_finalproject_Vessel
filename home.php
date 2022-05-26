@@ -23,6 +23,8 @@
         <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+
+
     </head>
     <body>
 
@@ -44,13 +46,14 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2022/5/31"></span>
+                                <span class="coming-time" data-countdown="2022/6/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="header-top-right">
                                 <div class="header-social">
                                     <ul>
+                                        <!-- BUTTON -->
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
@@ -84,7 +87,7 @@
                                         <ul>
                                             <li class="show"><a href="home.php">Home</a>
                                             </li>
-                                            <li><a href="#">Pages</a>
+                                            <li><a href="#">About</a>
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
@@ -96,10 +99,20 @@
                                             <li><a href="blog.php">Blog</a>
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
-                                        </ul>
+                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">Account Settings</a></li>
+                                                    <li><a href="#">Orders History</a></li>
+                                                    <li><a href="#">Activity</a></li>
+                                                    <li><a href="#">Notification</a></li>
+                                                    <li><a href="#">Messages</a></li>
+                                                    <li><a href="index.php">Logout</a></li>
+                                                </ul>
                                     </div>
+   
                                     <div class="header-action">
                                         <ul>
+                                            
                                             <li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>
                                                 <ul class="minicart">
                                                     <li class="d-flex align-items-start">
@@ -174,8 +187,8 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-7 col-md-11">
                                     <div class="slider-content">
-                                        <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
-                                        <h2 data-animation="fadeInUp" data-delay=".4s">Create <span>Manage</span> Matches</h2>
+                                        <h6 data-animation="fadeInUp" data-delay=".4s">Gaming world</h6>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s">Daily <span>Gaming</span> Updates</h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">The Vessel gaming section brings the latest video game news, reviews of the most exciting releases, and interviews with the industry’s biggest names.
                                         </p>
                                         <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
@@ -278,7 +291,7 @@
                                                 </ul>
                                             </div>
                                             <p>Explore infinite worlds, create, explore and survive alone or with friends</p>
-                                            <a href="#" class="btn btn-style-two">buy now</a>
+                                            <a href="game-single2.php" class="btn btn-style-two">buy now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -308,7 +321,7 @@
                                                 </ul>
                                             </div>
                                             <p>Master a powerful arsenal of abilities to unravel the dark truth as you FACE THE UNKNOWN in Ghostwire: Tokyo.</p>
-                                            <a href="#" class="btn btn-style-two">buy now</a>
+                                            <a href="game-single2.php" class="btn btn-style-two">buy now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -338,7 +351,7 @@
                                                 </ul>
                                             </div>
                                             <p>Use your agility and combat skills to survive, and reshape the world. Your choices matter</p>
-                                            <a href="#" class="btn btn-style-two">buy now</a>
+                                            <a href="game-single2.php" class="btn btn-style-two">buy now</a>
                                         </div>
                                     </div>
                                 </div>

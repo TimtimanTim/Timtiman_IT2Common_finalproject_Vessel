@@ -14,47 +14,92 @@
 
 <games>
 
-    <product>
+    <game>
         <name>God of War Ragnarök</name>
         <price>$80</price>
         <description>God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</description>
     </game>
     
-    <product>
+    <game>
         <name>Hogwarts Legacy</name>
         <price>$30</price>
         
         <description>Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</description>
     </game>
 
-    <product>
+    <game>
         <name>Gotham Knights</name>
         <price>$45</price>
         
         <description>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</description>
     </game>
 
-    <product>
+    <game>
         <name>Black Myth: Wukong</name>
         <price>$55</price>
         
         <description>Black Myth: Wukong is an upcoming action role-playing game by Chinese indie developer Game Science.</description>
     </game>
 
-     <product>
+     <game>
         <name>Saints Row Reboot</name>
         <price>$22</price>
         
         <description>Saints Row is an upcoming action-adventure video game and reboot of the Saints Row seriesn and published by Deep Silver.</description>
     </game>
 
-    <product>
-        <name>Horizon Forbidden West</name>
+    <game>
+        <name>Horizon Forbidden</name>
         <price>$30</price>
         
-        <description>Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games.</description>
+        <description>Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games and Sony Interactive Entertainment. </description>
     </game>
 
+        <game>
+        <name>ASUS ROG ZEPHYRUS G14 22</name>
+        <price>Price:  ₱86,443.88</price>
+       
+    </game>
+
+    <game>
+        <name> GeForce RTX 3060 </name>
+        <price> Price: ₱36,517.51</price>
+    </game>
+
+    <game>
+        <name> Secret Titan Evo 22</name>
+        <price> Price:  ₱26,399.50</price>
+    </game>
+
+   <game>
+        <name> Razer Raptor 27</name>
+        <price> Price:  ₱41,779.48</price>
+    </game>
+    
+    <game>
+        <name> Logitech G733 </name>
+        <price> Price:  ₱12,300.00 </price>
+    </game>
+
+    <game>
+        <name> Nintendo Switch </name>
+        <price> Price: ₱15,648.76</price>
+    </game>
+
+    <game> 
+        <name>ROG Phone 5s Pro</name>
+        <price> Price: ₱54,003.36 </price>
+    </game>
+
+    <game>
+        <name> Tower Gaming Desktop</name>
+        <price> Price: ₱104,621.66</price>
+    </game>
+
+    <game>
+        <name> Playstation 5</name>
+        <price> Price: ₱26,162.75</price>
+    </game>
 
 </games>
 

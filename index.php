@@ -1,3 +1,31 @@
+<?php 
+
+SESSION_START();
+
+$acc_username = "admin";
+$acc_password = "password";
+
+$url_add = "https://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+if(isset($_REQUEST['login_button']) === true){
+	if($_REQUEST['form_username'] != $acc_username){
+			header("Location: ".$url_add."?notexist");
+	}
+	else if($_REQUEST['form_username'] == $acc_username && $_REQUEST['form_password'] != $acc_password){
+			header("Location: ".$url_add."?wrongpass");
+	}
+	else if($_REQUEST['form_username'] == $acc_username && $_REQUEST['form_password'] == $acc_password){
+			header("Location: ".$url_add."?success");
+
+			$_SESSION['ses_username'] = $acc_username;
+			$_SESSION['ses_password'] = $acc_password;
+			$_SESSION['ses_fullname'] = $acc_fullname;
+			$_SESSION['ses_address'] = $acc_address;
+			
+	}
+	
+}
+
+?>
 
 
 <!DOCTYPE html>
@@ -34,15 +62,31 @@
                     <div class="form-items">
                         <h3>Sign In</h3>
                         <p>Log in your account to gain access to the vessel.</p>
-                        <form>
-                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="password" placeholder="Password" required>
+                        <form method ="POST">
+                        <?php
+                        if(isset($_REQUEST['notexist'])===true){
+                        echo "<div class='alert alert-danger' role='alert'> Username doest not exist... </div>";
+                        }
+                        else if(isset($_REQUEST['wrongpass']) ===true){
+                            echo "<div class='alert alert-warning' role='alert'> Incorrect Password... </div>";					
+                        }
+                        else if(isset($_REQUEST['success']) ===true){
+                            echo "<div class='alert alert-success' role='alert'> Redirecting... </div>";	
+                            header("Refresh: 5; url=home.php");			
+                        }
+                        else if(isset($_REQUEST['logout']) === true)
+                        {
+                            echo "<div class='alert alert-info' role='alert'> Thank you... </div>";	
+                        }
+                        ?> 
+                        <input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>
+                            <input class="form-control" type="password" name="form_password" placeholder="Password" required>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Login</button></a>
+                                <button id="submit" type="submit" class="ibtn" name="login_button">Login </button></a>
                                 <span> </span><a href="forget.php">Forget password?</a>
                             </div>
                         </form>
-                        ?>
+                       
                         <div class="other-links">
                             <div class="text">Or login with</div>
                             <a href=""><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>
@@ -56,10 +100,11 @@
             </div>
         </div>
     </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js_1/jquery.min.js"></script>
+<script src="js_1/popper.min.js"></script>
+<script src="js_1/bootstrap.min.js"></script>
+<script src="js_1/main.js"></script>
+<script src="js_1/cleave.min.js"></script>
 
 </body>
 </html>

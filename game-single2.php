@@ -83,16 +83,13 @@
                                     <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                         <ul>
                                             <li><a href="home.php">Home</a>
-
-                                            </li>
-                                            <li><a href="#">Pages</a>
+                                            <li class="show"><a href="#">Pages</a>
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
-                                                    <li><a href="upcoming-games.php">Upcoming Games</a></li>
-
+                                                    <li><a href="upcoming-games.php">Upcoming Games</a></li>                                                    
                                                 </ul>
                                             </li>
-                                            <li class="show"><a href="game-overview.php">Overview</a></li>
+                                            <li><a href="game-overview.php">Overview</a></li>
                                             <li><a href="community.php">Community</a></li>
                                             <li><a href="shop.php">Store</a></li>
                                             <li><a href="blog.php">Blog</a>
@@ -170,126 +167,124 @@
         <main>
 
             <!-- breadcrumb-area -->
-            <div class="breadcrumb-area breadcrumb-bg game-overview-breadcrumb">
+            <section class="breadcrumb-area breadcrumb-bg s-breadcrumb-bg">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-4 col-lg-6">
-                            <div class="game-overview-img">
-                                <img src="img/images/game_overview_thumb.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-6">
-                            <div class="breadcrumb-content text-center text-lg-left pl-80">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumb-content text-center">
+                                <h2>Game <span>Single</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="home.php">Home</a></li>
                                         <li class="breadcrumb-item"><a href="#">pages</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">VESSEL ESPORT</li>
+                                        <li class="breadcrumb-item active" aria-current="page">game single</li>
                                     </ol>
                                 </nav>
-                                <h2>VESSEL ESPORT<span> TEAM</span></h2>
-                                <div class="game-overview-status">
-                                    <ul>
-                                        <li><span>Record :</span>5 Championships </li>
-                                        <li><span>Membership :</span>January 30, 2015</li>
-                                        <li><span>Categories :</span>Valorant, LoL, Dota 2 and more</li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="btn btn-style-two">Join Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- breadcrumb-area-end -->
 
             <!-- game-single-area -->
-            <section class="game-single-area pt-120 pb-180">
+            <section class="game-single-area pt-120 pb-120">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="game-single-content game-overview-content">
+                            <div class="game-single-content">
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
-                                        <span>Do you have what it takes to be the next champion?</span>
-                                        <h4>BE A ESPORT PLAYER<span> <a href="#">Join Now!</a></span></h4>
+                                        <span>JUNE 02, 2020</span>
+                                        <h4>God of War <span>Ragnarok</span></h4>
+                                    </div>
+                                    <div class="uc-game-price">
+                                        <h5>COMING SOON</h5>
                                     </div>
                                 </div>
-                                <p s><span>Vessel®</span> is a global esports brand that strives to bring together the best players, to compete on the world's biggest stages, and put forth the most entertaining experience for our fans.</p>
-                                <p style="text-align:justify">We are passionately committed to building the esports 
-                                    community, and rely on a simple but winning philosophy - focus on cultivating the 
-                                    positive culture that is critical to success in team based esports. The Vessel Team™ 
-                                    organization drives forward this philosophy by providing advertising and promotional 
-                                    sponsorship, talent and team development, business management, coaching, and support 
-                                    to players both professional and aspiring, who compete in esports.</p>
-                                <div class="game-single-title mt-50 mb-30">
-                                    <h4>Good to Know</h4>
+                                <p style="text-align: justify">God of War Ragnarok is one of the most 
+                                highly anticipated games of 2022. It was initially revealed at the end of
+                                 a PlayStation Showcase event in September 2020, and developer Santa Monica 
+                                 Studio released an exciting trailer the following year. Since then, Sony hasnt 
+                                 released much about Kratos next Norse adventure.</p>
+                                <p style="text-align: justify">The original teaser for God of War
+                                 Ragnarok consisted of a logo and the year 2021. Many users probably
+                                  expected it to get pushed to 2022 due to how little information was 
+                                  revealed. Sony officially delayed God of War Ragnarok to 2022 in June 
+                                  of last year, and a developer at Santa Monica Studio reiterates that 
+                                  the game will release this year.</p>
+                                <div class="game-single-img">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <img src="img/images/game_single_img03.jpg" alt="">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <img src="img/images/game_single_img04.jpg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="game-single-info mb-45">
+                                <div class="uc-game-head-title">
+                                        <h4>God of War Ragnarök <span>Will Have More Than 60 Accessibility Features</span></h4>
+                                    </div>
+                                <p style="text-align: justify">God of War Ragnarok will include more than 60 accessibility
+                                 features when it arrives on PlayStation 4 and 5 later this year.</p>
+                                 <p style="text-align: justify">The list of features was revealed in a 
+                                 PlayStation Blog post which said developer Sony Santa Monica has combined
+                                  the options available in the original God of War (2018) with those in the 
+                                  PC version, and added some brand new ones too.</p>
+                                <div class="uc-game-head-title">
+                                        <h4>MORE TO <span>COME!</span></h4>
+                                    </div>
+                                <p style="text-align: justify">We hope youve enjoyed a look into this selection of the 
+                                60+ accessibility features that will be included in God of War Ragnarök.</p>
+                                <p style="text-align: justify">We are committed to 
+                                improving accessibility and customization for everyone. We cant
+                                wait to tell you details about our other categories of accessibility features 
+                                like combat/aim assists, puzzle/minigame assists, HUD adjustments, camera tuning, 
+                                auto pick up, and much more. </p>
+                                <div class="game-single-title mt-60 mb-30">
+                                    <h4>WHAT YOU NEED</h4>
+                                </div>
+                                <div class="game-single-info mb-65">
                                     <ul>
-                                    <li><span>All skill levels are welcome! 
-                                        To become eligible, please fill out the 
-                                        form below. You will receive a confirmation 
-                                        email and will also be contacted using the email you used to apply.</li>
-                                        <a href="#">https://gamesync.us/esports/application/</a>
-                                        <li></li>
-                                        <li><span>Categories :</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                        <li><span>Requirements :</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                        
-
+                                        <li><span>Genre :</span> Action-Adventure</li>
+                                        <li><span>System Requirements :</span> 
+                                        CPU: Intel i5-2500k (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz)
+                                        Memory: 8GB RAM.
+                                        GPU: Nvidia GTX 960 or AMD R9 290X.
+                                        VRAM: 4GB.
+                                        Storage: 70GB HDD or SSD storage.
+                                        </li>
+                                        <li><span>Platform :</span> PC, Console</li>
+                                        <li><span>Operating System :</span>Windows 10 (64-bit)</li>
                                     </ul>
                                 </div>
-                                <p><span>Currently, we field competitive teams in Valorant, Apex Legends, Fortnite, League of Legends, Wild Rift, Dota 2 and Halo.</span></p>
-                                <div class="row mt-55 mb-55">
-                                    <div class="col-lg-6 order-0 order-lg-2">
-                                        <div class="overview-history-img">
-                                            <img src="img/images/overview_history_img.jpg" alt="">
+                                <div class="game-single-title mb-30">
+                                    <h4>Game <span>Screenshot</span></h4>
+                                </div>
+                                <p>Here are some screenshots of the upcoming game God of War Ragnarok.</p>
+                                <div class="game-single-gallery">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6">
+                                            <img src="img/images/game_single_gallery01.jpg" alt="">
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="game-single-title mb-15">
-                                            <h4>Team history</h4>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <img src="img/images/game_single_gallery02.jpg" alt="">
                                         </div>
-                                        <div class="overview-history-content">
-                                            <p style="text-align: justify">Donec orci enim, bibendum a augue aliquet cursus quam. Pellentesque pulvinar, elit at condimentum dictum, sapien auctor
-                                            tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum. Curabi lacus vitae
-                                            tellus lacinia pretium.</p>
-                                            <div class="overview-history-list">
-                                                <ul>
-                                                    <li>
-                                                        <div class="overview-list-thumb">
-                                                            <img src="img/images/overview_history_thumb01.jpg" alt="">
-                                                        </div>
-                                                        <div class="overview-list-content">
-                                                            <h4 style="text-align: center"><a href="#">VALORANT Champions Tour 2021: Masters - Berlin</a></h4>
-                                                            <span style="text-align: center">Champion</span>
-                                                        </div>
-                                                        <div class="overview-list-price">
-                                                            <h4>$350,000</h4>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="overview-list-thumb">
-                                                            <img src="img/images/overview_history_thumb02.jpg" alt="">
-                                                        </div>
-                                                        <div class="overview-list-content">
-                                                        <h4 style="text-align: center"><a href="#">League of Legends Worlds Championship</a></h4>
-                                                            <span style="text-align: center">1st Runner Up</span>
-                                                        </div>
-                                                        <div class="overview-list-price">
-                                                            <h4>$500,000</h4>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <img src="img/images/game_single_gallery03.jpg" alt="">
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <img src="img/images/game_single_gallery04.jpg" alt="">
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <img src="img/images/game_single_gallery05.jpg" alt="">
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <img src="img/images/game_single_gallery06.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <p class="mb-0">Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvinar, elit at condimentum dictum, sapien
-                                nibh auctor tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum.
-                                Curabitr ut lacus vitae tellus lacinia pretium. Proin vestibulum sollcitudin tortor, quis auctor mi rutrum non. Donec
-                                non eros eget purus lobortis imperdiet ac vitae est. Interdum et masuda fames ac ante ipsum primis in faucibus. Duis
-                                ultricies mi sed lorem blandit, non sodales sapien fermentum. Donec ultricies, turpis a sagittis suscipit</p>
                                 <div class="game-single-shape"><img src="img/images/game_section_shape.png" alt=""></div>
                             </div>
                         </div>
@@ -297,6 +292,82 @@
                 </div>
             </section>
             <!-- game-single-area-end -->
+
+            <!-- upcoming-games -->
+            <section class="upcoming-games-area pb-140">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="game-single-title mb-55">
+                                <h4>released <span>GAMES</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="upcoming-game-item mb-40">
+                                <div class="upcoming-game-head">
+                                    <div class="uc-game-head-title">
+                                    <span>OCTOBER 25, 2022</span>
+                                        <h4><a href="#">God of War Ragnarök</a></h4>
+                                    </div>
+                                    <div class="uc-game-price">
+                                        <h5>$80</h5>
+                                    </div>
+                                </div>
+                                <p style="text-align: justify">God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</p>
+                                <div class="upcoming-game-thumb">
+                                    <img src="img/images/upcoming_game_thumb01.jpg" alt="">
+                                    <div class="upcoming-game-cart">
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="upcoming-game-item mb-40">
+                                <div class="upcoming-game-head">
+                                    <div class="uc-game-head-title">
+                                    <span>SEPTEMBER 01, 2022</span>
+                                        <h4><a href="#">Hogwarts Legacy</a></h4>
+                                    </div>
+                                    <div class="uc-game-price">
+                                        <h5>$30</h5>
+                                    </div>
+                                </div>
+                                <p style="text-align: justify">Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</p>
+                                <div class="upcoming-game-thumb">
+                                    <img src="img/images/upcoming_game_thumb02.jpg" alt="">
+                                    <div class="upcoming-game-cart">
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>PRESALE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="upcoming-game-item mb-40">
+                                <div class="upcoming-game-head">
+                                    <div class="uc-game-head-title">
+                                    <span>JANUARY 03, 2023</span>
+                                        <h4><a href="#">Gotham Knights</a></h4>
+                                    </div>
+                                    <div class="uc-game-price">
+                                        <h5>$45</h5>
+                                    </div>
+                                </div>
+                                <p>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</p>
+                                <div class="upcoming-game-thumb">
+                                    <img src="img/images/upcoming_game_thumb03.jpg" alt="">
+                                    <div class="upcoming-game-cart">
+                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- upcoming-games-end -->
 
         </main>
         <!-- main-area-end -->

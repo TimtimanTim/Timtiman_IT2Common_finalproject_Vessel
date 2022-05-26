@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Geco - eSports Gaming HTML5 Template</title>
+        <title>Vessel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2021/3/15"></span>
+                                <span class="coming-time" data-countdown="2022/5/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -88,17 +88,14 @@
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li class="active"><a href="upcoming-games.php">Upcoming Games</a></li>
-                                                    <li><a href="game-single.php">Game Single</a></li>
+
                                                 </ul>
                                             </li>
                                             <li><a href="game-overview.php">Overview</a></li>
                                             <li><a href="community.php">Community</a></li>
                                             <li><a href="shop.php">Store</a></li>
-                                            <li><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">News Page</a></li>
-                                                    <li><a href="blog-details.php">News Details</a></li>
-                                                </ul>
+                                            <li><a href="blog.php">Blog</a>
+
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
                                         </ul>
@@ -115,12 +112,12 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Platform</a>
+                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
                                                             </h4>
                                                             <div class="cart-price">
-                                                                <span class="new">$229.9</span>
+                                                                <span class="new">₱89,000.00</span>
                                                                 <span>
-                                                                    <del>$229.9</del>
+                                                                    <del>₱89,000.00</del>
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -133,13 +130,13 @@
                                                     <li>
                                                         <div class="total-price">
                                                             <span class="f-left">Total:</span>
-                                                            <span class="f-right">$239.9</span>
+                                                            <span class="f-right">₱90,000.00</span>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div class="checkout-link">
-                                                            <a href="cart.html">Shopping Cart</a>
-                                                            <a class="red-color" href="checkout.html">Checkout</a>
+                                                            <a href="#">Shopping Cart</a>
+                                                            <a class="red-color" href="#">Checkout</a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -201,17 +198,32 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                         <span>OCTOBER 25, 2022</span>
-                                        <h4><a href="#">God of War Ragnarök</a></h4>
+                                        <h4><a href="game-single2.php">
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[0]->name; 
+                                        ?></p>
+                                        </a></h4>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$80</h5>
+                                        <h5>                                        
+                                         <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[0]->price; 
+                                        ?>
+                                        </h5>
                                     </div>
                                 </div>
-                                <p style="text-align: justify">God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</p>
+                                <p style="text-align: justify">                                        
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[0]->description; 
+                                         ?>
+                                </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb01.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
+                                        <a href="game-single2.php" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -221,13 +233,27 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                         <span>SEPTEMBER 01, 2022</span>
-                                        <h4><a href="#">Hogwarts Legacy</a></h4>
+                                        <h4><a href="game-single2.php">
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[1]->name; 
+                                        ?></p>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$30</h5>
+                                        <h5>
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[1]->price; 
+                                         ?>
+                                        </h5>
                                     </div>
                                 </div>
-                                <p style="text-align: justify">Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</p>
+                                <p style="text-align: justify">
+                                <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[1]->description; 
+                                         ?>
+                                </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb02.jpg" alt="">
                                     <div class="upcoming-game-cart">
@@ -241,13 +267,27 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                         <span>JANUARY 03, 2023</span>
-                                        <h4><a href="#">Gotham Knights</a></h4>
+                                        <h4><a href="game-single2.php">
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[2]->name; 
+                                        ?></p>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$45</h5>
+                                        <h5>
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[2]->price; 
+                                         ?>
+                                        </h5>
                                     </div>
                                 </div>
-                                <p>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</p>
+                                <p style="text-align: justify">
+                                <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[2]->description; 
+                                         ?>
+                                </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb03.jpg" alt="">
                                     <div class="upcoming-game-cart">
@@ -261,13 +301,27 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                         <span>2023</span>
-                                        <h4><a href="#">Black Myth: Wukong</a></h4>
+                                        <h4><a href="game-single2.php">
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[3]->name; 
+                                        ?></p>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$55</h5>
+                                        <h5>
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[3]->price; 
+                                         ?>
+                                        </h5>
                                     </div>
                                 </div>
-                                <p>Black Myth: Wukong is an upcoming action role-playing game by Chinese indie developer Game Science, based on the classical Chinese novel.</p>
+                                <p style="text-align: justify">
+                                <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[3]->description; 
+                                         ?>
+                                </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb04.jpg" alt="">
                                     <div class="upcoming-game-cart">
@@ -281,13 +335,27 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                         <span>August 23, 2022</span>
-                                        <h4><a href="#"> Saints Row Reboot</a></h4>
+                                        <h4><a href="game-single2.php">
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[4]->name; 
+                                        ?></p>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$22</h5>
+                                        <h5>
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[4]->price; 
+                                         ?>
+                                        </h5>
                                     </div>
                                 </div>
-                                <p>Saints Row is an upcoming action-adventure video game and reboot of the Saints Row seriesn and published by Deep Silver, it is scheduled for release on August 23, 2022 </p>
+                                <p style="text-align: justify">
+                                <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[4]->description; 
+                                         ?>
+                                </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb05.jpg" alt="">
                                     <div class="upcoming-game-cart">
@@ -301,13 +369,27 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                         <span>2022</span>
-                                        <h4><a href="#">Avatar: Frontiers of Pandora</a></h4>
+                                        <h4><a href="game-single2.php">
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[5]->name; 
+                                        ?></p>
                                     </div>
                                     <div class="uc-game-price">
-                                        <h5>$35</h5>
+                                        <h5>
+                                        <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[5]->price; 
+                                         ?>
+                                        </h5>
                                     </div>
                                 </div>
-                                <p>Avatar: Frontiers of Pandora is an upcoming open-world action-adventure video game based on James Cameron's Avatar film series</p>
+                                <p style="text-align: justify">
+                                <?php
+                                        $item = simplexml_load_file('Timtiman_IT2E_Vessel.xml');
+                                        echo $item->game[5]->description; 
+                                         ?>
+                                </p>
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb06.jpg" alt="">
                                     <div class="upcoming-game-cart">
@@ -411,12 +493,11 @@
                         </div>
                         <div class="col-xl-5 col-lg-6">
                             <div class="section-title title-style-three mb-25">
-                                <h2>released <span>GAMES</span></h2>
+                                <h2>PRE-SALE <span>GAMES</span></h2>
                             </div>
                             <div class="inner-about-content">
-                                <h5>Monica Global Publishing for Marketing</h5>
-                                <p>Compete with 100 players on a remote Lorem Ipsn gravida. Pro ain gravida nibh vel velit an auctor aliqueenean
-                                ollicitudin ain gravida nibh vel version an ipsum.</p>
+                                <h5>Vessel Game Review</h5>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste, blanditiis repellendus expedita atque aliquam facere fugit veniam, deserunt libero accusamus nulla ipsam doloremque dolorum est. Officiis voluptate quaerat suscipit.</p>
                                 <p>Lorem Ipsn gravida. Pro ain gravida nibh vevelit auctor aliqueenean ollicitudin ain gravida nibh vel version an ipsum.</p>
                                 <a href="#" class="btn btn-style-two">BUY THEME</a>
                             </div>
@@ -469,10 +550,9 @@
                                     <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
                                     <div class="footer-contact">
                                         <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
-                                                lan West new queens</li>
+                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
                                             <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -481,15 +561,15 @@
                         <div class="col-xl-2 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-35">
-                                    <h5>Products</h5>
+                                    <h5>Links</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#">Graphics (26)</a></li>
-                                        <li><a href="#">Backgrounds (11)</a></li>
-                                        <li><a href="#">Fonts (9)</a></li>
-                                        <li><a href="#">Music (3)</a></li>
-                                        <li><a href="#">Photography (3)</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="about-us.php">Our Story</a></li>
+                                        <li><a href="game-overview.php">Overview</a></li>
+                                        <li><a href="community.php">Community</a></li>
+                                        <li><a href="shop.php">Store</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -505,7 +585,7 @@
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Refund Policy</a></li>
                                         <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQUse Cases</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -546,7 +626,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">

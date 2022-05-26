@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Geco - eSports Gaming HTML5 Template</title>
+        <title>Vessel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2021/3/15"></span>
+                                <span class="coming-time" data-countdown="2022/5/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -87,17 +87,14 @@
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
-                                                    <li class="active"><a href="game-single.php">Game Single</a></li>
+                                                    
                                                 </ul>
                                             </li>
                                             <li><a href="game-overview.php">Overview</a></li>
                                             <li><a href="community.php">Community</a></li>
                                             <li><a href="shop.php">Store</a></li>
-                                            <li><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">News Page</a></li>
-                                                    <li><a href="blog-details.php">News Details</a></li>
-                                                </ul>
+                                            <li><a href="blog.php">Blog</a>
+
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
                                         </ul>
@@ -114,12 +111,12 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Platform</a>
+                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
                                                             </h4>
                                                             <div class="cart-price">
-                                                                <span class="new">$229.9</span>
+                                                                <span class="new">₱89,000.00</span>
                                                                 <span>
-                                                                    <del>$229.9</del>
+                                                                    <del>₱89,000.00</del>
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -132,13 +129,13 @@
                                                     <li>
                                                         <div class="total-price">
                                                             <span class="f-left">Total:</span>
-                                                            <span class="f-right">$239.9</span>
+                                                            <span class="f-right">₱90,000.00</span>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div class="checkout-link">
-                                                            <a href="cart.html">Shopping Cart</a>
-                                                            <a class="red-color" href="checkout.html">Checkout</a>
+                                                            <a href="#">Shopping Cart</a>
+                                                            <a class="red-color" href="#">Checkout</a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -253,32 +250,28 @@
                                     </ul>
                                 </div>
                                 <div class="game-single-title mb-30">
-                                    <h4>Games Platform <span>System</span></h4>
+                                    <h4>Game <span>Screenshot</span></h4>
                                 </div>
-                                <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvinar, elit at condimentum dictum, sapien
-                                nibh auctor tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum.
-                                Curabitr ut lacus vitae tellus lacinia pretium. Proin vestibulum sollcitudin tortor, quis auctor mi rutrum non. Donec
-                                non eros eget purus lobortis imperdiet ac vitae est. Interdum et masuda fames ac ante ipsum primis in faucibus. Duis
-                                ultricies mi sed lorem blandit, non sodales sapien fermentum. Donec ultricies, turpis a sagittis suscipit</p>
+                                <p>Here are some screenshots of the gameplay of FPS Valorant.</p>
                                 <div class="game-single-gallery">
                                     <div class="row">
                                         <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery01.jpg" alt="">
+                                            <img src="img/images/game_single1_gallery01.jpg" alt="">
                                         </div>
                                         <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery02.jpg" alt="">
+                                            <img src="img/images/game_single1_gallery02.jpg" alt="">
                                         </div>
                                         <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery03.jpg" alt="">
+                                            <img src="img/images/game_single1_gallery03.jpg" alt="">
                                         </div>
                                         <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery04.jpg" alt="">
+                                            <img src="img/images/game_single1_gallery04.jpg" alt="">
                                         </div>
                                         <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery05.jpg" alt="">
+                                            <img src="img/images/game_single1_gallery05.jpg" alt="">
                                         </div>
                                         <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery06.jpg" alt="">
+                                            <img src="img/images/game_single1_gallery06.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -306,7 +299,7 @@
                                 <div class="upcoming-game-head">
                                     <div class="uc-game-head-title">
                                     <span>OCTOBER 25, 2022</span>
-                                        <h4><a href="#">God of War Ragnarök</a></h4>
+                                        <h4><a href="game-single2.php">God of War Ragnarök</a></h4>
                                     </div>
                                     <div class="uc-game-price">
                                         <h5>$80</h5>
@@ -316,7 +309,7 @@
                                 <div class="upcoming-game-thumb">
                                     <img src="img/images/upcoming_game_thumb01.jpg" alt="">
                                     <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
+                                        <a href="game-single2.php" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
                                     </div>
                                 </div>
                             </div>
@@ -407,10 +400,9 @@
                                     <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
                                     <div class="footer-contact">
                                         <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
-                                                lan West new queens</li>
+                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
                                             <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -419,15 +411,15 @@
                         <div class="col-xl-2 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-35">
-                                    <h5>Products</h5>
+                                    <h5>Links</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#">Graphics (26)</a></li>
-                                        <li><a href="#">Backgrounds (11)</a></li>
-                                        <li><a href="#">Fonts (9)</a></li>
-                                        <li><a href="#">Music (3)</a></li>
-                                        <li><a href="#">Photography (3)</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="about-us.php">Our Story</a></li>
+                                        <li><a href="game-overview.php">Overview</a></li>
+                                        <li><a href="community.php">Community</a></li>
+                                        <li><a href="shop.php">Store</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -443,7 +435,7 @@
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Refund Policy</a></li>
                                         <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQUse Cases</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -484,7 +476,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">

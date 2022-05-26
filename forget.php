@@ -8,14 +8,13 @@
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/login-style.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <div class="form-body without-side">
         <div class="website-logo">
             <a href="index.html">
                 <div class="logo">
-                    <img class="logo-size" src="img/logo/logo-light.png" alt="">
+                    <img class="logo-size" src="images/logo-light.svg" alt="">
                 </div>
             </a>
         </div>
@@ -30,12 +29,15 @@
                 <div class="form-content">
                     <div class="form-items">
                         <h3>Password Reset</h3>
-                        <p>To reset your password, enter the email address you use to sign in Vessel.</p>
+                        <p>To reset your password, enter the email address you use to sign in to iofrm</p>
                         <form>
                             <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
                             <div class="form-button full-width">
                                 <button id="submit" type="submit" class="ibtn btn-forget">Send Reset Link</button>
-                                <div class="form-sent">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-sent">
                         <div class="tick-holder">
                             <div class="tick-icon"></div>
                         </div>
@@ -44,18 +46,15 @@
                         <div class="info-holder">
                             <span>Unsure if that email address was correct?</span> <a href="#">We can help</a>.
                         </div>
-                            </div>
-                        </form>
-                    </div>
-                    
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js_1/jquery.min.js"></script>
+<script src="js_1/popper.min.js"></script>
+<script src="js_1/bootstrap.min.js"></script>
+<script src="js_1/main.js"></script>
+<script src="js_1/cleave.min.js"></script>
 </body>
 </html>

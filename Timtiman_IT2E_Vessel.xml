@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE games[
+    <!ELEMENT games (game)>
+
+    <!ELEMENT game (name, price, description)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+
+]>
+
+
+<games>
+
+    <product>
+        <name>God of War Ragnarök</name>
+        <price>$80</price>
+        <description>God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</description>
+    </game>
+    
+    <product>
+        <name>Hogwarts Legacy</name>
+        <price>$30</price>
+        
+        <description>Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</description>
+    </game>
+
+    <product>
+        <name>Gotham Knights</name>
+        <price>$45</price>
+        
+        <description>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</description>
+    </game>
+
+    <product>
+        <name>Black Myth: Wukong</name>
+        <price>$55</price>
+        
+        <description>Black Myth: Wukong is an upcoming action role-playing game by Chinese indie developer Game Science.</description>
+    </game>
+
+     <product>
+        <name>Saints Row Reboot</name>
+        <price>$22</price>
+        
+        <description>Saints Row is an upcoming action-adventure video game and reboot of the Saints Row seriesn and published by Deep Silver.</description>
+    </game>
+
+    <product>
+        <name>Horizon Forbidden West</name>
+        <price>$30</price>
+        
+        <description>Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games.</description>
+    </game>
+
+
+</games>
+

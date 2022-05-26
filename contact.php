@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Geco - eSports Gaming HTML5 Template</title>
+        <title>Vessel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2021/3/15"></span>
+                                <span class="coming-time" data-countdown="2022/5/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -95,11 +95,8 @@
                                             <li><a href="game-overview.php">Overview</a></li>
                                             <li><a href="community.php">Community</a></li>
                                             <li><a href="shop.php">Store</a></li>
-                                            <li><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">News Page</a></li>
-                                                    <li><a href="blog-details.php">News Details</a></li>
-                                                </ul>
+                                            <li><a href="blog.php">Blog</a>
+
                                             </li>
                                             <li class="show"><a href="contact.php">contact</a></li>
                                         </ul>
@@ -116,12 +113,12 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Platform</a>
+                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
                                                             </h4>
                                                             <div class="cart-price">
-                                                                <span class="new">$229.9</span>
+                                                                <span class="new">₱89,000.00</span>
                                                                 <span>
-                                                                    <del>$229.9</del>
+                                                                    <del>₱89,000.00</del>
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -134,13 +131,13 @@
                                                     <li>
                                                         <div class="total-price">
                                                             <span class="f-left">Total:</span>
-                                                            <span class="f-right">$239.9</span>
+                                                            <span class="f-right">₱90,000.00</span>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div class="checkout-link">
-                                                            <a href="cart.html">Shopping Cart</a>
-                                                            <a class="red-color" href="checkout.html">Checkout</a>
+                                                            <a href="#">Shopping Cart</a>
+                                                            <a class="red-color" href="#">Checkout</a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -202,12 +199,12 @@
                         </div>
                         <div class="col-lg-6 pl-45">
                             <div class="section-title title-style-three mb-20">
-                                <h2>CONTACT US ABOUT <span>PRESS</span></h2>
+                                <h2>CONTACT <span>US</span></h2>
                             </div>
                             <div class="contact-info-list mb-40">
                                 <ul>
-                                    <li><i class="fas fa-map-marker-alt"></i>Walking Park, Los Angeles, Brockland, USA</li>
-                                    <li><i class="fas fa-envelope"></i>info@cloux.com</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Bangbangalon, Boac, Marinduque</li>
+                                    <li><i class="fas fa-envelope"></i>tjtimtiman121901@gmail.com</li>
                                 </ul>
                             </div>
                             <div class="contact-form">
@@ -318,10 +315,9 @@
                                     <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
                                     <div class="footer-contact">
                                         <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
-                                                lan West new queens</li>
+                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
                                             <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -330,15 +326,15 @@
                         <div class="col-xl-2 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-35">
-                                    <h5>Products</h5>
+                                    <h5>Links</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#">Graphics (26)</a></li>
-                                        <li><a href="#">Backgrounds (11)</a></li>
-                                        <li><a href="#">Fonts (9)</a></li>
-                                        <li><a href="#">Music (3)</a></li>
-                                        <li><a href="#">Photography (3)</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="about-us.php">Our Story</a></li>
+                                        <li><a href="game-overview.php">Overview</a></li>
+                                        <li><a href="community.php">Community</a></li>
+                                        <li><a href="shop.php">Store</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -354,7 +350,7 @@
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Refund Policy</a></li>
                                         <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQUse Cases</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -395,7 +391,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">
@@ -443,7 +439,7 @@
                         zoom: 11,
                         scrollwheel: false,
                         // The latitude and longitude to center the map (always required)
-                        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                        center: new google.maps.LatLng(13.4423, 121.8258), // Marinduque
                         // This is where you would paste any style found on Snazzy Maps.
                         styles: [{ "featureType": "all", "elementType": "geometry.fill", "stylers": [{ "weight": "2.00" }] }, { "featureType": "all", "elementType": "geometry.stroke", "stylers": [{ "color": "#9c9c9c" }] }, { "featureType": "all", "elementType": "labels.text", "stylers": [{ "visibility": "on" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "color": "#f2f2f2" }] }, { "featureType": "landscape", "elementType": "geometry.fill", "stylers": [{ "color": "#ffffff" }] }, { "featureType": "landscape.man_made", "elementType": "geometry.fill", "stylers": [{ "color": "#ffffff" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": 45 }] }, { "featureType": "road", "elementType": "geometry.fill", "stylers": [{ "color": "#eeeeee" }] }, { "featureType": "road", "elementType": "labels.text.fill", "stylers": [{ "color": "#7b7b7b" }] }, { "featureType": "road", "elementType": "labels.text.stroke", "stylers": [{ "color": "#ffffff" }] }, { "featureType": "road.highway", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road.arterial", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "all", "stylers": [{ "color": "#46bcec" }, { "visibility": "on" }] }, { "featureType": "water", "elementType": "geometry.fill", "stylers": [{ "color": "#c8d7d4" }] }, { "featureType": "water", "elementType": "labels.text.fill", "stylers": [{ "color": "#070707" }] }, { "featureType": "water", "elementType": "labels.text.stroke", "stylers": [{ "color": "#ffffff" }] }]
                     };
@@ -456,7 +452,7 @@
 
                     // Let's also add a marker while we're at it
                     var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(40.6700, -73.9400),
+                        position: new google.maps.LatLng(13.4423, 121.8258),
                         map: map,
                         icon: 'img/icon/map_marker.png',
                         title: 'Geco'

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Geco - eSports Gaming HTML5 Template</title>
+        <title>Vessel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2021/3/15"></span>
+                                <span class="coming-time" data-countdown="2022/5/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -89,17 +89,14 @@
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
-                                                    <li><a href="game-single.php">Game Single</a></li>
+
                                                 </ul>
                                             </li>
                                             <li><a href="game-overview.php">Overview</a></li>
                                             <li class="show"><a href="community.php">Community</a></li>
                                             <li><a href="shop.php">Store</a></li>
-                                            <li><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">News Page</a></li>
-                                                    <li><a href="blog-details.php">News Details</a></li>
-                                                </ul>
+                                            <li><a href="blog.php">Blog</a>
+
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
                                         </ul>
@@ -116,12 +113,12 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Platform</a>
+                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
                                                             </h4>
                                                             <div class="cart-price">
-                                                                <span class="new">$229.9</span>
+                                                                <span class="new">₱89,000.00</span>
                                                                 <span>
-                                                                    <del>$229.9</del>
+                                                                    <del>₱89,000.00</del>
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -134,13 +131,13 @@
                                                     <li>
                                                         <div class="total-price">
                                                             <span class="f-left">Total:</span>
-                                                            <span class="f-right">$239.9</span>
+                                                            <span class="f-right">₱90,000.00</span>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div class="checkout-link">
-                                                            <a href="cart.html">Shopping Cart</a>
-                                                            <a class="red-color" href="checkout.html">Checkout</a>
+                                                            <a href="#">Shopping Cart</a>
+                                                            <a class="red-color" href="#">Checkout</a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -218,7 +215,7 @@
                                                     <div class="community-post-wrap">
                                                         <div class="community-post-content">
                                                             <a href="#">Electronic game that involves</a>
-                                                            <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
+                                                            <span>by <a href="#">Teemothy</a> Yesterday 19:34</span>
                                                         </div>
                                                         <div class="community-post-tag">
                                                             <a href="#">@All</a>
@@ -250,7 +247,7 @@
                                                     <div class="community-post-wrap">
                                                         <div class="community-post-content">
                                                             <a href="#">Electronic game that involves</a>
-                                                            <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
+                                                            <span>by <a href="#">Teemothy</a> Yesterday 12 : 19</span>
                                                         </div>
                                                         <div class="community-post-tag">
                                                             <a href="#">@All</a>
@@ -276,7 +273,7 @@
                                                     <div class="community-post-wrap">
                                                         <div class="community-post-content">
                                                             <a href="#">Electronic game that involves</a>
-                                                            <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
+                                                            <span>by <a href="#">Teemothy</a> Yesterday 12 : 19</span>
                                                         </div>
                                                         <div class="community-post-tag">
                                                             <a href="#">@All</a>
@@ -308,7 +305,7 @@
                                                     <div class="community-post-wrap">
                                                         <div class="community-post-content">
                                                             <a href="#">Electronic game that involves</a>
-                                                            <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
+                                                            <span>by <a href="#">Teemothy</a> Yesterday 12 : 19</span>
                                                         </div>
                                                         <div class="community-post-tag">
                                                             <a href="#">@All</a>
@@ -358,8 +355,8 @@
                                                     </a>
                                                 </div>
                                                 <div class="sidebar-new-game-content">
-                                                    <span>Yesterday 12 : 19</span>
-                                                    <h5><a href="#">Sky Warrior Game involves</a></h5>
+                                                    <span>Today 12:19</span>
+                                                    <h5><a href="#">GhostWire Tokyo</a></h5>
                                                 </div>
                                             </li>
                                             <li>
@@ -369,8 +366,8 @@
                                                     </a>
                                                 </div>
                                                 <div class="sidebar-new-game-content">
-                                                    <span>Yesterday 12 : 19</span>
-                                                    <h5><a href="#">Sky Warrior Game involves</a></h5>
+                                                    <span>Today 12:19</span>
+                                                    <h5><a href="#">Dead by Daylight II</a></h5>
                                                 </div>
                                             </li>
                                             <li>
@@ -380,8 +377,8 @@
                                                     </a>
                                                 </div>
                                                 <div class="sidebar-new-game-content">
-                                                    <span>Yesterday 12 : 19</span>
-                                                    <h5><a href="#">Sky Warrior Game involves</a></h5>
+                                                    <span>Today 12:19</span>
+                                                    <h5><a href="#">Spiderman: Miles Morales</a></h5>
                                                 </div>
                                             </li>
                                         </ul>
@@ -437,10 +434,9 @@
                                     <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
                                     <div class="footer-contact">
                                         <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
-                                                lan West new queens</li>
+                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
                                             <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -449,15 +445,15 @@
                         <div class="col-xl-2 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-35">
-                                    <h5>Products</h5>
+                                    <h5>Links</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#">Graphics (26)</a></li>
-                                        <li><a href="#">Backgrounds (11)</a></li>
-                                        <li><a href="#">Fonts (9)</a></li>
-                                        <li><a href="#">Music (3)</a></li>
-                                        <li><a href="#">Photography (3)</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="about-us.php">Our Story</a></li>
+                                        <li><a href="game-overview.php">Overview</a></li>
+                                        <li><a href="community.php">Community</a></li>
+                                        <li><a href="shop.php">Store</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -473,7 +469,7 @@
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Refund Policy</a></li>
                                         <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQUse Cases</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -514,7 +510,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">

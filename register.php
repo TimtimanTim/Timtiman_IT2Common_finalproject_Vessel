@@ -52,9 +52,10 @@
             </div>
         </div>
     </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js_1/jquery.min.js"></script>
+<script src="js_1/popper.min.js"></script>
+<script src="js_1/bootstrap.min.js"></script>
+<script src="js_1/main.js"></script>
+<script src="js_1/cleave.min.js"></script>
 </body>
 </html>

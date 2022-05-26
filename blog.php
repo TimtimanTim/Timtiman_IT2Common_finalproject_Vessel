@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Geco - eSports Gaming HTML5 Template</title>
+        <title>Vessel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,7 +44,7 @@
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="header-top-offer">
                                 <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2021/3/15"></span>
+                                <span class="coming-time" data-countdown="2022/5/31"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -89,17 +89,13 @@
                                                 <ul class="submenu">
                                                     <li><a href="about-us.php">our story</a></li>
                                                     <li><a href="upcoming-games.php">Upcoming Games</a></li>
-                                                    <li><a href="game-single.php">Game Single</a></li>
+
                                                 </ul>
                                             </li>
                                             <li><a href="game-overview.php">Overview</a></li>
                                             <li><a href="community.php">Community</a></li>
                                             <li><a href="shop.php">Store</a></li>
-                                            <li class="show"><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li class="active"><a href="blog.php">News Page</a></li>
-                                                    <li><a href="blog-details.php">News Details</a></li>
-                                                </ul>
+                                            <li class="show"><a href="blog.php">Blog</a>
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
                                         </ul>
@@ -116,12 +112,12 @@
                                                         </div>
                                                         <div class="cart-content">
                                                             <h4>
-                                                                <a href="#">Xbox One Platform</a>
+                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
                                                             </h4>
                                                             <div class="cart-price">
-                                                                <span class="new">$229.9</span>
+                                                                <span class="new">₱89,000.00</span>
                                                                 <span>
-                                                                    <del>$229.9</del>
+                                                                    <del>₱89,000.00</del>
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -134,13 +130,13 @@
                                                     <li>
                                                         <div class="total-price">
                                                             <span class="f-left">Total:</span>
-                                                            <span class="f-right">$239.9</span>
+                                                            <span class="f-right">₱90,000.00</span>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div class="checkout-link">
-                                                            <a href="cart.html">Shopping Cart</a>
-                                                            <a class="red-color" href="checkout.html">Checkout</a>
+                                                            <a href="#">Shopping Cart</a>
+                                                            <a class="red-color" href="#">Checkout</a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -178,11 +174,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb-content text-center">
-                                <h2>Blog Right <span>Sidebar</span></h2>
+                                <h2>NEWS <span>PAGE</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="home.php">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Blog Right Sidebar</li>
+                                        <li class="breadcrumb-item active" aria-current="page">NEWS PAGE</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -205,19 +201,20 @@
                                     <div class="blog-list-post-tag mb-25">
                                         <a href="#">shooting</a>
                                     </div>
-                                    <h2><a href="#">welcome PLAY FOR EVERYONE zombie</a></h2>
+                                    <h2><a href="#">V Rising hits 1 million players after just a week</a></h2>
                                     <div class="blog-meta">
                                         <ul>
-                                            <li>bY <a href="#">x-hunter</a> OCTOBER 19, 2020</li>
+                                            <li>bY <a href="#">Austin Wood published</a> about 8 hours ago</li>
                                         </ul>
                                     </div>
-                                    <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvi condimentum dictum, sapien nibh auctor
-                                    tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum. Curabitr ut lacus
-                                    vitae tellus lacinia pretium.</p>
+                                    <p style="text-align: justify">The game's official Twitter account confirmed(opens in new tab) 
+                                        the milestone earlier today. "1,000,000 Vampires have risen from 
+                                        their slumber," the announcement reads. "Thank you all for being 
+                                        part of this achievement!"</p>
                                 </div>
                                 <div class="blog-list-post-bottom">
                                     <ul>
-                                        <li><a href="#">more reding<i class="fas fa-angle-double-right"></i></a></li>
+                                        <li><a href="#">Read More<i class="fas fa-angle-double-right"></i></a></li>
                                         <li>
                                             <span>SHARE :</span>
                                             <div class="blog-post-share">
@@ -235,21 +232,19 @@
                                 </div>
                                 <div class="blog-list-post-content">
                                     <div class="blog-list-post-tag mb-25">
-                                        <a href="#">shooting</a>
+                                        <a href="#">Action-Shooter</a>
                                     </div>
-                                    <h2><a href="#">welcome PLAY FOR EVERYONE zombie</a></h2>
+                                    <h2><a href="#">Call of Duty: Modern Warfare 2 release date confirmed for October</a></h2>
                                     <div class="blog-meta">
                                         <ul>
-                                            <li>bY <a href="#">x-hunter</a> OCTOBER 19, 2020</li>
+                                            <li>bY <a href="#">Jordan Gerblick</a> published about 12 hours ago</li>
                                         </ul>
                                     </div>
-                                    <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvi condimentum dictum, sapien nibh auctor
-                                    tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum. Curabitr ut lacus
-                                    vitae tellus lacinia pretium.</p>
+                                    <p>Call of Duty: Modern Warfare 2 officially launches October 28, Infinity Ward and Activision have revealed.</p>
                                 </div>
                                 <div class="blog-list-post-bottom">
                                     <ul>
-                                        <li><a href="#">more reding<i class="fas fa-angle-double-right"></i></a></li>
+                                        <li><a href="#">more reading<i class="fas fa-angle-double-right"></i></a></li>
                                         <li>
                                             <span>SHARE :</span>
                                             <div class="blog-post-share">
@@ -267,21 +262,23 @@
                                 </div>
                                 <div class="blog-list-post-content">
                                     <div class="blog-list-post-tag mb-25">
-                                        <a href="#">shooting</a>
+                                        <a href="#">Laptop</a>
                                     </div>
-                                    <h2><a href="#">welcome PLAY FOR EVERYONE zombie</a></h2>
+                                    <h2><a href="#">The best cheap gaming laptop deals in May 2022</a></h2>
                                     <div class="blog-meta">
                                         <ul>
-                                            <li>bY <a href="#">x-hunter</a> OCTOBER 19, 2020</li>
+                                            <li>bY <a href="#">Tabitha Baker , Aleksha McLoughlin</a> published 24 May 22</li>
                                         </ul>
                                     </div>
-                                    <p>Donec orci enim, bibendum a augue quis, aliquet cursus quam. Pellentesque pulvi condimentum dictum, sapien nibh auctor
-                                    tortoris vulputate sapien tortor et velit. Sed nulla nisi, congue eu quam vel, molestie grvida ipsum. Curabitr ut lacus
-                                    vitae tellus lacinia pretium.</p>
+                                    <p style="text-align: justify">Cheap gaming laptop deals are the best way to get into
+                                         PC gaming for less. Whether you've got your heart set on 
+                                         a budget machine for casual experiences, or looking to get 
+                                         one of the best gaming laptops at reduced rates, we're seeing 
+                                         discounts hitting the full range right now.</p>
                                 </div>
                                 <div class="blog-list-post-bottom">
                                     <ul>
-                                        <li><a href="#">more reding<i class="fas fa-angle-double-right"></i></a></li>
+                                        <li><a href="#">more reading<i class="fas fa-angle-double-right"></i></a></li>
                                         <li>
                                             <span>SHARE :</span>
                                             <div class="blog-post-share">
@@ -313,7 +310,12 @@
                                             <h4>ABOUT THE <span>AUTHOR</span></h4>
                                         </div>
                                         <div class="sidebar-about-content">
-                                            <p>Donec orci enim, bibendum a augue quis, aliquet cursus quamPellentesq.</p>
+                                            <p style="text-align: justify">Our team will sometimes take 
+                                                trips and other hospitality to attend shows 
+                                                or see products. That doesn't 
+                                                affect how we think or write about those products or games,
+                                                 but it does affect whether we can cover certain products or events,
+                                                  particularly when otherwise we would not have had that coverage opportunity.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -331,11 +333,11 @@
                                     </div>
                                     <div class="sidebar-cat">
                                         <ul>
-                                            <li><a href="#">ESPORTS ( 12 )</a></li>
-                                            <li><a href="#">play store ( 03 )</a></li>
-                                            <li><a href="#">pubg ( 09 )</a></li>
-                                            <li><a href="#">zombieland ( 07 )</a></li>
-                                            <li><a href="#">shooting ( 02 )</a></li>
+                                            <li><a href="#">Released Games ( 12 )</a></li>
+                                            <li><a href="#">Trending ( 103 )</a></li>
+                                            <li><a href="#">Valorant ( 25 )</a></li>
+                                            <li><a href="#">Adventure ( 17 )</a></li>
+                                            <li><a href="#">Upcoming ( 42 )</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -351,7 +353,7 @@
                                                 </div>
                                                 <div class="rc-post-content">
                                                     <h5><a href="#">EVERYONE zombie</a></h5>
-                                                    <span>OCTOBER 19, 2020</span>
+                                                    <span>MAY 25, 2022</span>
                                                 </div>
                                             </li>
                                             <li>
@@ -360,7 +362,7 @@
                                                 </div>
                                                 <div class="rc-post-content">
                                                     <h5><a href="#">Archery World Tour</a></h5>
-                                                    <span>OCTOBER 19, 2020</span>
+                                                    <span>MAY 25, 2022</span>
                                                 </div>
                                             </li>
                                             <li>
@@ -369,7 +371,7 @@
                                                 </div>
                                                 <div class="rc-post-content">
                                                     <h5><a href="#">The Ranger Magic</a></h5>
-                                                    <span>OCTOBER 19, 2020</span>
+                                                    <span>MAY 25, 2022</span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -386,13 +388,13 @@
                                                     <a href="#"><img src="img/blog/trend_match_thumb01.png" alt=""></a>
                                                 </div>
                                                 <div class="sidebar-trend-match-action">
-                                                    <span>0</span> <span>-</span> <span>3</span>
+                                                <span>1</span> <span>-</span> <span>3</span>
                                                 </div>
                                                 <div class="sidebar-trend-match-thumb">
                                                     <a href="#"><img src="img/blog/trend_match_thumb02.png" alt=""></a>
                                                 </div>
                                                 <div class="sidebar-trend-match-date">
-                                                    <span>OCTOBER 19, 2020</span>
+                                                    <span>MAY 25, 2022</span>
                                                 </div>
                                             </li>
                                             <li>
@@ -400,13 +402,13 @@
                                                     <a href="#"><img src="img/blog/trend_match_thumb03.png" alt=""></a>
                                                 </div>
                                                 <div class="sidebar-trend-match-action">
-                                                    <span>0</span> <span>-</span> <span>7</span>
+                                                    <span>2</span> <span>-</span> <span>2</span>
                                                 </div>
                                                 <div class="sidebar-trend-match-thumb">
                                                     <a href="#"><img src="img/blog/trend_match_thumb04.png" alt=""></a>
                                                 </div>
                                                 <div class="sidebar-trend-match-date">
-                                                    <span>OCTOBER 19, 2020</span>
+                                                    <span>MAY 25, 2022</span>
                                                 </div>
                                             </li>
                                             <li>
@@ -414,13 +416,13 @@
                                                     <a href="#"><img src="img/blog/trend_match_thumb05.png" alt=""></a>
                                                 </div>
                                                 <div class="sidebar-trend-match-action">
-                                                    <span>0</span> <span>-</span> <span>3</span>
+                                                    <span>1</span> <span>-</span> <span>0</span>
                                                 </div>
                                                 <div class="sidebar-trend-match-thumb">
                                                     <a href="#"><img src="img/blog/trend_match_thumb06.png" alt=""></a>
                                                 </div>
                                                 <div class="sidebar-trend-match-date">
-                                                    <span>OCTOBER 19, 2020</span>
+                                                    <span>MAY 25, 2022</span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -432,12 +434,12 @@
                                     </div>
                                     <div class="sidebar-tag-list">
                                         <ul>
-                                            <li><a href="#">pubg</a></li>
+                                            <li><a href="#">VALORANT</a></li>
                                             <li><a href="#">dota 2</a></li>
-                                            <li><a href="#">zombie</a></li>
-                                            <li><a href="#">call of duty</a></li>
-                                            <li><a href="#">development</a></li>
-                                            <li><a href="#">zombieland 2</a></li>
+                                            <li><a href="#">LOL</a></li>
+                                            <li><a href="#">WILD RIFT</a></li>
+                                            <li><a href="#">LAPTOP</a></li>
+                                            <li><a href="#">TRENDING</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -489,10 +491,9 @@
                                     <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
                                     <div class="footer-contact">
                                         <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
-                                                lan West new queens</li>
+                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
                                             <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -501,15 +502,15 @@
                         <div class="col-xl-2 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-35">
-                                    <h5>Products</h5>
+                                    <h5>Links</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#">Graphics (26)</a></li>
-                                        <li><a href="#">Backgrounds (11)</a></li>
-                                        <li><a href="#">Fonts (9)</a></li>
-                                        <li><a href="#">Music (3)</a></li>
-                                        <li><a href="#">Photography (3)</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="about-us.php">Our Story</a></li>
+                                        <li><a href="game-overview.php">Overview</a></li>
+                                        <li><a href="community.php">Community</a></li>
+                                        <li><a href="shop.php">Store</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -525,7 +526,7 @@
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Refund Policy</a></li>
                                         <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQUse Cases</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -566,7 +567,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">

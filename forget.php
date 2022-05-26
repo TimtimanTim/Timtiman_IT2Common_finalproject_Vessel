@@ -10,47 +10,49 @@
     <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-    <div class="form-body without-side">
-        <div class="website-logo">
-            <a href="index.html">
-                <div class="logo">
-                    <img class="logo-size" src="images/logo-light.svg" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="row">
-            <div class="img-holder">
-                <div class="bg"></div>
-                <div class="info-holder">
-                    <img src="images/graphic3.svg" alt="">
-                </div>
-            </div>
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Password Reset</h3>
-                        <p>To reset your password, enter the email address you use to sign in to iofrm</p>
-                        <form>
-                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
-                            <div class="form-button full-width">
-                                <button id="submit" type="submit" class="ibtn btn-forget">Send Reset Link</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="form-sent">
-                        <div class="tick-holder">
-                            <div class="tick-icon"></div>
-                        </div>
-                        <h3>Password link sent</h3>
-                        <p>Please check your inbox iofrm@iofrmtemplate.io</p>
-                        <div class="info-holder">
-                            <span>Unsure if that email address was correct?</span> <a href="#">We can help</a>.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php
+echo '<div class="form-body without-side">';
+echo '<div class="website-logo">';
+echo '<a href="index.html">';
+echo '<div class="logo">';
+echo '<img class="logo-size" src="images/logo-light.svg" alt="">';
+echo '</div>';
+echo '</a>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="img-holder">';
+echo '<div class="bg"></div>';
+echo '<div class="info-holder">';
+echo '<img src="images/graphic3.svg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '<div class="form-holder">';
+echo '<div class="form-content">';
+echo '<div class="form-items">';
+echo '<h3>Password Reset</h3>';
+echo '<p>To reset your password, enter the email address you use to sign in to iofrm</p>';
+echo '<form>';
+echo '<input class="form-control" type="text" name="username" placeholder="E-mail Address" required>';
+echo '<div class="form-button full-width">';
+echo '<button id="submit" type="submit" class="ibtn btn-forget">Send Reset Link</button>';
+echo '</div>';
+echo '</form>';
+echo '</div>';
+echo '<div class="form-sent">';
+echo '<div class="tick-holder">';
+echo '<div class="tick-icon"></div>';
+echo '</div>';
+echo '<h3>Password link sent</h3>';
+echo '<p>Please check your inbox iofrm@iofrmtemplate.io</p>';
+echo '<div class="info-holder">';
+echo '<span>Unsure if that email address was correct?</span> <a href="#">We can help</a>.';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+?>
 <script src="js_1/jquery.min.js"></script>
 <script src="js_1/popper.min.js"></script>
 <script src="js_1/bootstrap.min.js"></script>

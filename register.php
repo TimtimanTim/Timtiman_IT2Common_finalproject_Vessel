@@ -11,47 +11,49 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div class="form-body without-side">
-        <div class="website-logo">
-            <a href="index.html">
-                <div class="logo">
-                    <img class="logo-size" src="img/logo/logo-light.png" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="row">
-            <div class="img-holder">
-                <div class="bg"></div>
-                <div class="info-holder">
-                    <img src="images/graphic3.svg" alt="">
-                </div>
-            </div>
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Sign Up</h3>
-                        <p>Register new account. It is quick and easy.</p>
-                        <form>
-                            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="password" placeholder="Password" required>
-                            <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Sign Up</button>
-                            </div>
-                        </form>
-                        <div class="other-links">
-                            <div class="text">Or register with</div>
-                            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                        </div>
-                        <div class="page-links">
-                            <p>Already have an account? <a href="index.php">Sign in</a></p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php
+echo '<div class="form-body without-side">';
+echo '<div class="website-logo">';
+echo '<a href="index.html">';
+echo '<div class="logo">';
+echo '<img class="logo-size" src="img/logo/logo-light.png" alt="">';
+echo '</div>';
+echo '</a>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="img-holder">';
+echo '<div class="bg"></div>';
+echo '<div class="info-holder">';
+echo '<img src="images/graphic3.svg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '<div class="form-holder">';
+echo '<div class="form-content">';
+echo '<div class="form-items">';
+echo '<h3>Sign Up</h3>';
+echo '<p>Register new account. It is quick and easy.</p>';
+echo '<form>';
+echo '<input class="form-control" type="text" name="name" placeholder="Full Name" required>';
+echo '<input class="form-control" type="email" name="email" placeholder="E-mail Address" required>';
+echo '<input class="form-control" type="password" name="password" placeholder="Password" required>';
+echo '<div class="form-button">';
+echo '<button id="submit" type="submit" class="ibtn">Sign Up</button>';
+echo '</div>';
+echo '</form>';
+echo '<div class="other-links">';
+echo '<div class="text">Or register with</div>';
+echo '<a href="#"><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>';
+echo '</div>';
+echo '<div class="page-links">';
+echo '<p>Already have an account? <a href="index.php">Sign in</a></p>';
+echo '';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+?>
 <script src="js_1/jquery.min.js"></script>
 <script src="js_1/popper.min.js"></script>
 <script src="js_1/bootstrap.min.js"></script>

@@ -26,488 +26,490 @@
     </head>
     <body>
 
-        <!-- preloader -->
-        <div id="preloader">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <img src="img/icon/preloader.svg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- preloader-end -->
-
-        <!-- header-area -->
-        <header>
-            <div class="header-top-area s-header-top-area d-none d-lg-block">
-                <div class="container-fluid s-container-full-padding">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 d-none d-lg-block">
-                            <div class="header-top-offer">
-                                <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2022/6/31"></span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="header-top-right">
-                                <div class="header-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="header-top-action">
-                                    <ul>
-                                        <li>
-                                            <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="sticky-header" class="transparent-header">
-                <div class="container-fluid s-container-full-padding">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="main-menu menu-style-two">
-                                <nav>
-                                    <div class="logo">
-                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
-                                    </div>
-                                    <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
-                                        <ul>
-                                            <li><a href="home.php">Home</a>
-                                            <li class="show"><a href="#">About</a>
-                                                <ul class="submenu">
-                                                    <li><a href="about-us.php">our story</a></li>
-                                                    <li><a href="upcoming-games.php">Upcoming Games</a></li>                                                    
-                                                </ul>
-                                            </li>
-                                            <li><a href="game-overview.php">Overview</a></li>
-                                            <li><a href="community.php">Community</a></li>
-                                            <li><a href="shop.php">Store</a></li>
-                                            <li><a href="blog.php">Blog</a>
-
-                                            </li>
-                                            <li><a href="contact.php">contact</a></li>
-                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="#">Account Settings</a></li>
-                                                    <li><a href="#">Orders History</a></li>
-                                                    <li><a href="#">Activity</a></li>
-                                                    <li><a href="#">Notification</a></li>
-                                                    <li><a href="#">Messages</a></li>
-                                                    <li><a href="index.php">Logout</a></li>
-                                                </ul>
-                                        </ul>
-                                    </div>
-                                    <div class="header-action">
-                                        <ul>
-                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>
-                                                <ul class="minicart">
-                                                    <li class="d-flex align-items-start">
-                                                        <div class="cart-img">
-                                                            <a href="#">
-                                                                <img src="img/product/cart_p01.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="cart-content">
-                                                            <h4>
-                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
-                                                            </h4>
-                                                            <div class="cart-price">
-                                                                <span class="new">₱89,000.00</span>
-                                                                <span>
-                                                                    <del>₱89,000.00</del>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="del-icon">
-                                                            <a href="#">
-                                                                <i class="far fa-trash-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="total-price">
-                                                            <span class="f-left">Total:</span>
-                                                            <span class="f-right">₱90,000.00</span>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="checkout-link">
-                                                            <a href="#">Shopping Cart</a>
-                                                            <a class="red-color" href="#">Checkout</a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                            <div class="mobile-menu"></div>
-                        </div>
-                        <!-- Modal Search -->
-                        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <form>
-                                        <input type="text" placeholder="Search here...">
-                                        <button><i class="fa fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header-area-end -->
-
-        <!-- main-area -->
-        <main>
-
-            <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg s-breadcrumb-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="breadcrumb-content text-center">
-                                <h2>Game <span>Single</span></h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="home.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="#">About</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">game single</li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- breadcrumb-area-end -->
-
-            <!-- game-single-area -->
-            <section class="game-single-area pt-120 pb-120">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="game-single-content">
-                                <div class="upcoming-game-head">
-                                    <div class="uc-game-head-title">
-                                        <span>JUNE 02, 2020</span>
-                                        <h4>God of War <span>Ragnarok</span></h4>
-                                    </div>
-                                    <div class="uc-game-price">
-                                        <h5>COMING SOON</h5>
-                                    </div>
-                                </div>
-                                <p style="text-align: justify">God of War Ragnarok is one of the most 
-                                highly anticipated games of 2022. It was initially revealed at the end of
-                                 a PlayStation Showcase event in September 2020, and developer Santa Monica 
-                                 Studio released an exciting trailer the following year. Since then, Sony hasnt 
-                                 released much about Kratos next Norse adventure.</p>
-                                <p style="text-align: justify">The original teaser for God of War
-                                 Ragnarok consisted of a logo and the year 2021. Many users probably
-                                  expected it to get pushed to 2022 due to how little information was 
-                                  revealed. Sony officially delayed God of War Ragnarok to 2022 in June 
-                                  of last year, and a developer at Santa Monica Studio reiterates that 
-                                  the game will release this year.</p>
-                                <div class="game-single-img">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <img src="img/images/game_single_img03.jpg" alt="">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <img src="img/images/game_single_img04.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="uc-game-head-title">
-                                        <h4>God of War Ragnarök <span>Will Have More Than 60 Accessibility Features</span></h4>
-                                    </div>
-                                <p style="text-align: justify">God of War Ragnarok will include more than 60 accessibility
-                                 features when it arrives on PlayStation 4 and 5 later this year.</p>
-                                 <p style="text-align: justify">The list of features was revealed in a 
-                                 PlayStation Blog post which said developer Sony Santa Monica has combined
-                                  the options available in the original God of War (2018) with those in the 
-                                  PC version, and added some brand new ones too.</p>
-                                <div class="uc-game-head-title">
-                                        <h4>MORE TO <span>COME!</span></h4>
-                                    </div>
-                                <p style="text-align: justify">We hope youve enjoyed a look into this selection of the 
-                                60+ accessibility features that will be included in God of War Ragnarök.</p>
-                                <p style="text-align: justify">We are committed to 
-                                improving accessibility and customization for everyone. We cant
-                                wait to tell you details about our other categories of accessibility features 
-                                like combat/aim assists, puzzle/minigame assists, HUD adjustments, camera tuning, 
-                                auto pick up, and much more. </p>
-                                <div class="game-single-title mt-60 mb-30">
-                                    <h4>WHAT YOU NEED</h4>
-                                </div>
-                                <div class="game-single-info mb-65">
-                                    <ul>
-                                        <li><span>Genre :</span> Action-Adventure</li>
-                                        <li><span>System Requirements :</span> 
-                                        CPU: Intel i5-2500k (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz)
-                                        Memory: 8GB RAM.
-                                        GPU: Nvidia GTX 960 or AMD R9 290X.
-                                        VRAM: 4GB.
-                                        Storage: 70GB HDD or SSD storage.
-                                        </li>
-                                        <li><span>Platform :</span> PC, Console</li>
-                                        <li><span>Operating System :</span>Windows 10 (64-bit)</li>
-                                    </ul>
-                                </div>
-                                <div class="game-single-title mb-30">
-                                    <h4>Game <span>Screenshot</span></h4>
-                                </div>
-                                <p>Here are some screenshots of the upcoming game God of War Ragnarok.</p>
-                                <div class="game-single-gallery">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery01.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery02.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery03.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery04.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery05.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-4 col-sm-6">
-                                            <img src="img/images/game_single_gallery06.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="game-single-shape"><img src="img/images/game_section_shape.png" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- game-single-area-end -->
-
-            <!-- upcoming-games -->
-            <section class="upcoming-games-area pb-140">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="game-single-title mb-55">
-                                <h4>released <span>GAMES</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="upcoming-game-item mb-40">
-                                <div class="upcoming-game-head">
-                                    <div class="uc-game-head-title">
-                                    <span>OCTOBER 25, 2022</span>
-                                        <h4><a href="#">God of War Ragnarök</a></h4>
-                                    </div>
-                                    <div class="uc-game-price">
-                                        <h5>$80</h5>
-                                    </div>
-                                </div>
-                                <p style="text-align: justify">God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</p>
-                                <div class="upcoming-game-thumb">
-                                    <img src="img/images/upcoming_game_thumb01.jpg" alt="">
-                                    <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="upcoming-game-item mb-40">
-                                <div class="upcoming-game-head">
-                                    <div class="uc-game-head-title">
-                                    <span>SEPTEMBER 01, 2022</span>
-                                        <h4><a href="#">Hogwarts Legacy</a></h4>
-                                    </div>
-                                    <div class="uc-game-price">
-                                        <h5>$30</h5>
-                                    </div>
-                                </div>
-                                <p style="text-align: justify">Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</p>
-                                <div class="upcoming-game-thumb">
-                                    <img src="img/images/upcoming_game_thumb02.jpg" alt="">
-                                    <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>PRESALE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="upcoming-game-item mb-40">
-                                <div class="upcoming-game-head">
-                                    <div class="uc-game-head-title">
-                                    <span>JANUARY 03, 2023</span>
-                                        <h4><a href="#">Gotham Knights</a></h4>
-                                    </div>
-                                    <div class="uc-game-price">
-                                        <h5>$45</h5>
-                                    </div>
-                                </div>
-                                <p>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</p>
-                                <div class="upcoming-game-thumb">
-                                    <img src="img/images/upcoming_game_thumb03.jpg" alt="">
-                                    <div class="upcoming-game-cart">
-                                        <a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- upcoming-games-end -->
-
-        </main>
-        <!-- main-area-end -->
-
-        <!-- footer-area -->
-        <footer>
-            <div class="footer-top footer-bg s-footer-bg">
-                <!-- newsletter-area -->
-                <div class="newsletter-area s-newsletter-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="newsletter-wrap">
-                                    <div class="section-title newsletter-title">
-                                        <h2>Our <span>Newsletter</span></h2>
-                                    </div>
-                                    <div class="newsletter-form">
-                                        <form action="#">
-                                            <div class="newsletter-form-grp">
-                                                <i class="far fa-envelope"></i>
-                                                <input type="email" placeholder="Enter your email...">
-                                            </div>
-                                            <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- newsletter-area-end -->
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="footer-widget mb-50">
-                                <div class="footer-logo mb-35">
-                                    <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
-                                </div>
-                                <div class="footer-text">
-                                    <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
-                                    <div class="footer-contact">
-                                        <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
-                                            <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Links</h5>
-                                </div>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="home.php">Home</a></li>
-                                        <li><a href="about-us.php">Our Story</a></li>
-                                        <li><a href="game-overview.php">Overview</a></li>
-                                        <li><a href="community.php">Community</a></li>
-                                        <li><a href="shop.php">Store</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Need Help?</h5>
-                                </div>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Refund Policy</a></li>
-                                        <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Follow us</h5>
-                                </div>
-                                <div class="footer-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Newsletter Sign Up</h5>
-                                </div>
-                                <div class="footer-newsletter">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter your email">
-                                        <button><i class="fas fa-rocket"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
-            </div>
-            <div class="copyright-wrap s-copyright-wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="copyright-text">
-                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 d-none d-md-block">
-                            <div class="payment-method-img text-right">
-                                <img src="img/images/card_img.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer-area-end -->
+    <?php
+echo '<!-- preloader -->';
+echo '<div id="preloader">';
+echo '<div id="loading-center">';
+echo '<div id="loading-center-absolute">';
+echo '<img src="img/icon/preloader.svg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!-- preloader-end -->';
+echo '';
+echo '<!-- header-area -->';
+echo '<header>';
+echo '<div class="header-top-area s-header-top-area d-none d-lg-block">';
+echo '<div class="container-fluid s-container-full-padding">';
+echo '<div class="row align-items-center">';
+echo '<div class="col-lg-6 d-none d-lg-block">';
+echo '<div class="header-top-offer">';
+echo '<p>Exclusive BLACK FRIDAY offer!</p>';
+echo '<span class="coming-time" data-countdown="2022/6/31"></span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-6">';
+echo '<div class="header-top-right">';
+echo '<div class="header-social">';
+echo '<ul>';
+echo '<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-twitter"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="header-top-action">';
+echo '<ul>';
+echo '<li>';
+echo '<div class="header-top-mail">';
+echo '<p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>';
+echo '</div>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div id="sticky-header" class="transparent-header">';
+echo '<div class="container-fluid s-container-full-padding">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="main-menu menu-style-two">';
+echo '<nav>';
+echo '<div class="logo">';
+echo '<a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>';
+echo '</div>';
+echo '<div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">';
+echo '<ul>';
+echo '<li><a href="home.php">Home</a>';
+echo '<li class="show"><a href="#">About</a>';
+echo '<ul class="submenu">';
+echo '<li><a href="about-us.php">our story</a></li>';
+echo '<li><a href="upcoming-games.php">Upcoming Games</a></li>';
+echo '</ul>';
+echo '</li>';
+echo '<li><a href="game-overview.php">Overview</a></li>';
+echo '<li><a href="community.php">Community</a></li>';
+echo '<li><a href="shop.php">Store</a></li>';
+echo '<li><a href="blog.php">Blog</a>';
+echo '';
+echo '</li>';
+echo '<li><a href="contact.php">contact</a></li>';
+echo '<li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>';
+echo '<ul class="submenu">';
+echo '<li><a href="#">Account Settings</a></li>';
+echo '<li><a href="#">Orders History</a></li>';
+echo '<li><a href="#">Activity</a></li>';
+echo '<li><a href="#">Notification</a></li>';
+echo '<li><a href="#">Messages</a></li>';
+echo '<li><a href="index.php">Logout</a></li>';
+echo '</ul>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="header-action">';
+echo '<ul>';
+echo '<li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>';
+echo '<ul class="minicart">';
+echo '<li class="d-flex align-items-start">';
+echo '<div class="cart-img">';
+echo '<a href="#">';
+echo '<img src="img/product/cart_p01.jpg" alt="">';
+echo '</a>';
+echo '</div>';
+echo '<div class="cart-content">';
+echo '<h4>';
+echo '<a href="#">ASUS ROG ZEPHYRUS G14 22</a>';
+echo '</h4>';
+echo '<div class="cart-price">';
+echo '<span class="new">₱89,000.00</span>';
+echo '<span>';
+echo '<del>₱89,000.00</del>';
+echo '</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="del-icon">';
+echo '<a href="#">';
+echo '<i class="far fa-trash-alt"></i>';
+echo '</a>';
+echo '</div>';
+echo '</li>';
+echo '<li>';
+echo '<div class="total-price">';
+echo '<span class="f-left">Total:</span>';
+echo '<span class="f-right">₱90,000.00</span>';
+echo '</div>';
+echo '</li>';
+echo '<li>';
+echo '<div class="checkout-link">';
+echo '<a href="#">Shopping Cart</a>';
+echo '<a class="red-color" href="#">Checkout</a>';
+echo '</div>';
+echo '</li>';
+echo '</ul>';
+echo '</li>';
+echo '<li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</nav>';
+echo '</div>';
+echo '<div class="mobile-menu"></div>';
+echo '</div>';
+echo '<!-- Modal Search -->';
+echo '<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">';
+echo '<div class="modal-dialog" role="document">';
+echo '<div class="modal-content">';
+echo '<form>';
+echo '<input type="text" placeholder="Search here...">';
+echo '<button><i class="fa fa-search"></i></button>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</header>';
+echo '<!-- header-area-end -->';
+echo '';
+echo '<!-- main-area -->';
+echo '<main>';
+echo '';
+echo '<!-- breadcrumb-area -->';
+echo '<section class="breadcrumb-area breadcrumb-bg s-breadcrumb-bg">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="breadcrumb-content text-center">';
+echo '<h2>Game <span>Single</span></h2>';
+echo '<nav aria-label="breadcrumb">';
+echo '<ol class="breadcrumb">';
+echo '<li class="breadcrumb-item"><a href="home.php">Home</a></li>';
+echo '<li class="breadcrumb-item"><a href="#">About</a></li>';
+echo '<li class="breadcrumb-item active" aria-current="page">game single</li>';
+echo '</ol>';
+echo '</nav>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- breadcrumb-area-end -->';
+echo '';
+echo '<!-- game-single-area -->';
+echo '<section class="game-single-area pt-120 pb-120">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="game-single-content">';
+echo '<div class="upcoming-game-head">';
+echo '<div class="uc-game-head-title">';
+echo '<span>JUNE 02, 2020</span>';
+echo '<h4>God of War <span>Ragnarok</span></h4>';
+echo '</div>';
+echo '<div class="uc-game-price">';
+echo '<h5>COMING SOON</h5>';
+echo '</div>';
+echo '</div>';
+echo '<p style="text-align: justify">God of War Ragnarok is one of the most';
+echo 'highly anticipated games of 2022. It was initially revealed at the end of';
+echo 'a PlayStation Showcase event in September 2020, and developer Santa Monica';
+echo 'Studio released an exciting trailer the following year. Since then, Sony hasnt';
+echo 'released much about Kratos next Norse adventure.</p>';
+echo '<p style="text-align: justify">The original teaser for God of War';
+echo 'Ragnarok consisted of a logo and the year 2021. Many users probably';
+echo 'expected it to get pushed to 2022 due to how little information was';
+echo 'revealed. Sony officially delayed God of War Ragnarok to 2022 in June';
+echo 'of last year, and a developer at Santa Monica Studio reiterates that';
+echo 'the game will release this year.</p>';
+echo '<div class="game-single-img">';
+echo '<div class="row">';
+echo '<div class="col-sm-6">';
+echo '<img src="img/images/game_single_img03.jpg" alt="">';
+echo '</div>';
+echo '<div class="col-sm-6">';
+echo '<img src="img/images/game_single_img04.jpg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="uc-game-head-title">';
+echo '<h4>God of War Ragnarök <span>Will Have More Than 60 Accessibility Features</span></h4>';
+echo '</div>';
+echo '<p style="text-align: justify">God of War Ragnarok will include more than 60 accessibility';
+echo 'features when it arrives on PlayStation 4 and 5 later this year.</p>';
+echo '<p style="text-align: justify">The list of features was revealed in a';
+echo 'PlayStation Blog post which said developer Sony Santa Monica has combined';
+echo 'the options available in the original God of War (2018) with those in the';
+echo 'PC version, and added some brand new ones too.</p>';
+echo '<div class="uc-game-head-title">';
+echo '<h4>MORE TO <span>COME!</span></h4>';
+echo '</div>';
+echo '<p style="text-align: justify">We hope youve enjoyed a look into this selection of the';
+echo '60+ accessibility features that will be included in God of War Ragnarök.</p>';
+echo '<p style="text-align: justify">We are committed to';
+echo 'improving accessibility and customization for everyone. We cant';
+echo 'wait to tell you details about our other categories of accessibility features';
+echo 'like combat/aim assists, puzzle/minigame assists, HUD adjustments, camera tuning,';
+echo 'auto pick up, and much more. </p>';
+echo '<div class="game-single-title mt-60 mb-30">';
+echo '<h4>WHAT YOU NEED</h4>';
+echo '</div>';
+echo '<div class="game-single-info mb-65">';
+echo '<ul>';
+echo '<li><span>Genre :</span> Action-Adventure</li>';
+echo '<li><span>System Requirements :</span>';
+echo 'CPU: Intel i5-2500k (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz)';
+echo 'Memory: 8GB RAM.';
+echo 'GPU: Nvidia GTX 960 or AMD R9 290X.';
+echo 'VRAM: 4GB.';
+echo 'Storage: 70GB HDD or SSD storage.';
+echo '</li>';
+echo '<li><span>Platform :</span> PC, Console</li>';
+echo '<li><span>Operating System :</span>Windows 10 (64-bit)</li>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="game-single-title mb-30">';
+echo '<h4>Game <span>Screenshot</span></h4>';
+echo '</div>';
+echo '<p>Here are some screenshots of the upcoming game God of War Ragnarok.</p>';
+echo '<div class="game-single-gallery">';
+echo '<div class="row">';
+echo '<div class="col-lg-4 col-sm-6">';
+echo '<img src="img/images/game_single_gallery01.jpg" alt="">';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6">';
+echo '<img src="img/images/game_single_gallery02.jpg" alt="">';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6">';
+echo '<img src="img/images/game_single_gallery03.jpg" alt="">';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6">';
+echo '<img src="img/images/game_single_gallery04.jpg" alt="">';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6">';
+echo '<img src="img/images/game_single_gallery05.jpg" alt="">';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6">';
+echo '<img src="img/images/game_single_gallery06.jpg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="game-single-shape"><img src="img/images/game_section_shape.png" alt=""></div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- game-single-area-end -->';
+echo '';
+echo '<!-- upcoming-games -->';
+echo '<section class="upcoming-games-area pb-140">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="game-single-title mb-55">';
+echo '<h4>released <span>GAMES</span></h4>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="col-lg-4 col-md-6">';
+echo '<div class="upcoming-game-item mb-40">';
+echo '<div class="upcoming-game-head">';
+echo '<div class="uc-game-head-title">';
+echo '<span>OCTOBER 25, 2022</span>';
+echo '<h4><a href="#">God of War Ragnarök</a></h4>';
+echo '</div>';
+echo '<div class="uc-game-price">';
+echo '<h5>$80</h5>';
+echo '</div>';
+echo '</div>';
+echo '<p style="text-align: justify">God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio.</p>';
+echo '<div class="upcoming-game-thumb">';
+echo '<img src="img/images/upcoming_game_thumb01.jpg" alt="">';
+echo '<div class="upcoming-game-cart">';
+echo '<a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-md-6">';
+echo '<div class="upcoming-game-item mb-40">';
+echo '<div class="upcoming-game-head">';
+echo '<div class="uc-game-head-title">';
+echo '<span>SEPTEMBER 01, 2022</span>';
+echo '<h4><a href="#">Hogwarts Legacy</a></h4>';
+echo '</div>';
+echo '<div class="uc-game-price">';
+echo '<h5>$30</h5>';
+echo '</div>';
+echo '</div>';
+echo '<p style="text-align: justify">Hogwarts Legacy is an upcoming action role-playing video game developed by Avalanche Software.</p>';
+echo '<div class="upcoming-game-thumb">';
+echo '<img src="img/images/upcoming_game_thumb02.jpg" alt="">';
+echo '<div class="upcoming-game-cart">';
+echo '<a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>PRESALE</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-md-6">';
+echo '<div class="upcoming-game-item mb-40">';
+echo '<div class="upcoming-game-head">';
+echo '<div class="uc-game-head-title">';
+echo '<span>JANUARY 03, 2023</span>';
+echo '<h4><a href="#">Gotham Knights</a></h4>';
+echo '</div>';
+echo '<div class="uc-game-price">';
+echo '<h5>$45</h5>';
+echo '</div>';
+echo '</div>';
+echo '<p>Gotham Knights is an upcoming action role-playing game developed by WB Games Montréal.</p>';
+echo '<div class="upcoming-game-thumb">';
+echo '<img src="img/images/upcoming_game_thumb03.jpg" alt="">';
+echo '<div class="upcoming-game-cart">';
+echo '<a href="#" class="btn transparent-btn"><i class="fas fa-shopping-basket"></i>COMING SOON</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- upcoming-games-end -->';
+echo '';
+echo '</main>';
+echo '<!-- main-area-end -->';
+echo '';
+echo '<!-- footer-area -->';
+echo '<footer>';
+echo '<div class="footer-top footer-bg s-footer-bg">';
+echo '<!-- newsletter-area -->';
+echo '<div class="newsletter-area s-newsletter-area">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="newsletter-wrap">';
+echo '<div class="section-title newsletter-title">';
+echo '<h2>Our <span>Newsletter</span></h2>';
+echo '</div>';
+echo '<div class="newsletter-form">';
+echo '<form action="#">';
+echo '<div class="newsletter-form-grp">';
+echo '<i class="far fa-envelope"></i>';
+echo '<input type="email" placeholder="Enter your email...">';
+echo '</div>';
+echo '<button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!-- newsletter-area-end -->';
+echo '<div class="container">';
+echo '<div class="row justify-content-between">';
+echo '<div class="col-xl-3 col-lg-4 col-md-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="footer-logo mb-35">';
+echo '<a href="index.html"><img src="img/logo/logo.png" alt=""></a>';
+echo '</div>';
+echo '<div class="footer-text">';
+echo '<p>Gemas marketplace the relase etras thats sheets continig passag.</p>';
+echo '<div class="footer-contact">';
+echo '<ul>';
+echo '<li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>';
+echo '<li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>';
+echo '<li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-2 col-lg-3 col-sm-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Links</h5>';
+echo '</div>';
+echo '<div class="fw-link">';
+echo '<ul>';
+echo '<li><a href="home.php">Home</a></li>';
+echo '<li><a href="about-us.php">Our Story</a></li>';
+echo '<li><a href="game-overview.php">Overview</a></li>';
+echo '<li><a href="community.php">Community</a></li>';
+echo '<li><a href="shop.php">Store</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-2 col-lg-3 col-sm-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Need Help?</h5>';
+echo '</div>';
+echo '<div class="fw-link">';
+echo '<ul>';
+echo '<li><a href="#">Terms & Conditions</a></li>';
+echo '<li><a href="#">Privacy Policy</a></li>';
+echo '<li><a href="#">Refund Policy</a></li>';
+echo '<li><a href="#">Affiliate</a></li>';
+echo '<li><a href="#">FAQ</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-3 col-lg-4 col-md-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Follow us</h5>';
+echo '</div>';
+echo '<div class="footer-social">';
+echo '<ul>';
+echo '<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-twitter"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Newsletter Sign Up</h5>';
+echo '</div>';
+echo '<div class="footer-newsletter">';
+echo '<form action="#">';
+echo '<input type="text" placeholder="Enter your email">';
+echo '<button><i class="fas fa-rocket"></i></button>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>';
+echo '<div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>';
+echo '</div>';
+echo '<div class="copyright-wrap s-copyright-wrap">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-lg-6 col-md-6">';
+echo '<div class="copyright-text">';
+echo '<p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-6 col-md-6 d-none d-md-block">';
+echo '<div class="payment-method-img text-right">';
+echo '<img src="img/images/card_img.png" alt="img">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</footer>';
+echo '<!-- footer-area-end -->';
+?>
 
 
 

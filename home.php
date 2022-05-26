@@ -26,903 +26,905 @@
 
 
     </head>
-    <body>
-
-        <!-- preloader -->
-        <div id="preloader">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <img src="img/icon/preloader.svg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- preloader-end -->
-
-        <!-- header-area -->
-        <header>
-            <div class="header-top-area s-header-top-area d-none d-lg-block">
-                <div class="container-fluid s-container-full-padding">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 d-none d-lg-block">
-                            <div class="header-top-offer">
-                                <p>Exclusive BLACK FRIDAY offer!</p>
-                                <span class="coming-time" data-countdown="2022/6/31"></span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="header-top-right">
-                                <div class="header-social">
-                                    <ul>
-                                        <!-- BUTTON -->
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="header-top-action">
-                                    <ul>
-                                        <li>
-                                            <div class="header-top-mail">
-                                                <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="sticky-header" class="transparent-header">
-                <div class="container-fluid s-container-full-padding">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="main-menu menu-style-two">
-                                <nav>
-                                    <div class="logo">
-                                        <a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>
-                                    </div>
-                                    <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
-                                        <ul>
-                                            <li class="show"><a href="home.php">Home</a>
-                                            </li>
-                                            <li><a href="#">About</a>
-                                                <ul class="submenu">
-                                                    <li><a href="about-us.php">our story</a></li>
-                                                    <li><a href="upcoming-games.php">Upcoming Games</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="game-overview.php">Overview</a></li>
-                                            <li><a href="community.php">Community</a></li>
-                                            <li><a href="shop.php">Store</a></li>
-                                            <li><a href="blog.php">Blog</a>
-                                            </li>
-                                            <li><a href="contact.php">contact</a></li>
-                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="#">Account Settings</a></li>
-                                                    <li><a href="#">Orders History</a></li>
-                                                    <li><a href="#">Activity</a></li>
-                                                    <li><a href="#">Notification</a></li>
-                                                    <li><a href="#">Messages</a></li>
-                                                    <li><a href="index.php">Logout</a></li>
-                                                </ul>
-                                    </div>
-   
-                                    <div class="header-action">
-                                        <ul>
-                                            
-                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>
-                                                <ul class="minicart">
-                                                    <li class="d-flex align-items-start">
-                                                        <div class="cart-img">
-                                                            <a href="#">
-                                                                <img src="img/product/cart_p01.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="cart-content">
-                                                            <h4>
-                                                                <a href="#">ASUS ROG ZEPHYRUS G14 22</a>
-                                                            </h4>
-                                                            <div class="cart-price">
-                                                                <span class="new">₱89,000.00</span>
-                                                                <span>
-                                                                    <del>₱89,000.00</del>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="del-icon">
-                                                            <a href="#">
-                                                                <i class="far fa-trash-alt"></i>
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="total-price">
-                                                            <span class="f-left">Total:</span>
-                                                            <span class="f-right">₱90,000.00</span>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="checkout-link">
-                                                            <a href="#">Shopping Cart</a>
-                                                            <a class="red-color" href="#">Checkout</a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                            <div class="mobile-menu"></div>
-                        </div>
-                        <!-- Modal Search -->
-                        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <form>
-                                        <input type="text" placeholder="Search here...">
-                                        <button><i class="fa fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header-area-end -->
-
-        <!-- main-area -->
-        <main>
-
-            <!-- slider-area -->
-            <section class="slider-area">
-                <div class="slider-active">
-                    <div class="single-slider slider-bg slider-style-two">
-                        <div class="container-fluid container-full-padding">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-7 col-md-11">
-                                    <div class="slider-content">
-                                        <h6 data-animation="fadeInUp" data-delay=".4s">Gaming world</h6>
-                                        <h2 data-animation="fadeInUp" data-delay=".4s">Daily <span>Gaming</span> Updates</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">The Vessel gaming section brings the latest video game news, reviews of the most exciting releases, and interviews with the industry’s biggest names.
-                                        </p>
-                                        <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/slider_img01.png" alt=""></div>
-                        <div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/slider_img02.png" alt=""></div>
-                        <div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>
-                    </div>
-                    <div class="single-slider slider-bg slider-style-two" style="background-image: url(img/slider/slider_bg.jpg);">
-                        <div class="container-fluid container-full-padding">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-7 col-md-11">
-                                    <div class="slider-content">
-                                        <h6 data-animation="fadeInUp" data-delay=".4s">TOP GAMES</h6>
-                                        <h2 data-animation="fadeInUp" data-delay=".4s">Valorant <span>Riot</span> Games</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">A free-to-play 5v5 character-based tactical shooter and objective-based game, developed and published by Riot Games,</p>
-                                        <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/slider_img01.png" alt=""></div>
-                        <div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/slider_img02.png" alt=""></div>
-                        <div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>
-                    </div>
-                </div>
-            </section>
-            <!-- slider-area-end -->
-
-            <!-- new-games-area -->
-            <section class="released-games-area gray-bg pt-115 pb-70">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="section-title title-style-three text-center mb-20">
-                                <h2>TRENDING <span>GAMES</span></h2>
-                                <p>Here are the hottest games and reviews that won't waste your time with unrelated nonsense.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-12">
-                            <div class="released-game-active">
-                                <div class="released-game-carousel">
-                                    <div class="released-game-item">
-                                        <div class="released-game-item-bg"></div>
-                                        <div class="released-game-img">
-                                            <img src="img/images/released_game_img01.jpg" alt="">
-                                        </div>
-                                        <div class="released-game-content">
-                                            <div class="released-game-rating">
-                                                <h5>Rating :</h5>
-                                                <div class="released-rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <h4>Valo<span>rant</span></h4>
-                                            <div class="released-game-list mb-15">
-                                                <ul>
-                                                    <li><span>Genre :</span>First Person Shooter</li>
-                                                    <li><span>Developer :</span>Riot Games</li>
-                                                    <li><span>Platform :</span>PC</li>
-                                                </ul>
-                                            </div>
-                                            <p>Compete with other 5 players where one team attacks and the other defends. Search and Destroy.</p>
-                                            <a href="game-single.php" class="btn btn-style-two">play Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="released-game-carousel">
-                                    <div class="released-game-item">
-                                        <div class="released-game-item-bg"></div>
-                                        <div class="released-game-img">
-                                            <img src="img/images/released_game_img02.jpg" alt="">
-                                        </div>
-                                        <div class="released-game-content">
-                                            <div class="released-game-rating">
-                                                <h5>Rating :</h5>
-                                                <div class="released-rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <h4>Mine<span>craft</span></h4>
-                                            <div class="released-game-list mb-15">
-                                                <ul>
-                                                    <li><span>Genre :</span>Simulation, Sandbox</li>
-                                                    <li><span>Developer :</span>Mojang Studios</li>
-                                                    <li><span>Platform :</span>PC, Console, Mobile Devices</li>
-                                                </ul>
-                                            </div>
-                                            <p>Explore infinite worlds, create, explore and survive alone or with friends</p>
-                                            <a href="game-single2.php" class="btn btn-style-two">buy now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="released-game-carousel">
-                                    <div class="released-game-item">
-                                        <div class="released-game-item-bg"></div>
-                                        <div class="released-game-img">
-                                            <img src="img/images/released_game_img03.jpg" alt="">
-                                        </div>
-                                        <div class="released-game-content">
-                                            <div class="released-game-rating">
-                                                <h5>Rating :</h5>
-                                                <div class="released-rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <h4>GhostWire <span>Tokyo</span></h4>
-                                            <div class="released-game-list mb-15">
-                                                <ul>
-                                                    <li><span>Genre :</span>Action, Adventure, RPG</li>
-                                                    <li><span>Developer :</span>Bethesda</li>
-                                                    <li><span>Platform :</span>PC, COnsole</li>
-                                                </ul>
-                                            </div>
-                                            <p>Master a powerful arsenal of abilities to unravel the dark truth as you FACE THE UNKNOWN in Ghostwire: Tokyo.</p>
-                                            <a href="game-single2.php" class="btn btn-style-two">buy now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="released-game-carousel">
-                                    <div class="released-game-item">
-                                        <div class="released-game-item-bg"></div>
-                                        <div class="released-game-img">
-                                            <img src="img/images/released_game_img04.jpg" alt="">
-                                        </div>
-                                        <div class="released-game-content">
-                                            <div class="released-game-rating">
-                                                <h5>Rating :</h5>
-                                                <div class="released-rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <h4>Dying<span>Light 2</span></h4>
-                                            <div class="released-game-list mb-15">
-                                                <ul>
-                                                    <li><span>Genre :</span>Action, Adventure, RPG</li>
-                                                    <li><span>Developer :</span>Techland</li>
-                                                    <li><span>Platform :</span>PC, Console</li>
-                                                </ul>
-                                            </div>
-                                            <p>Use your agility and combat skills to survive, and reshape the world. Your choices matter</p>
-                                            <a href="game-single2.php" class="btn btn-style-two">buy now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-12">
-                            <div class="released-game-nav">
-                                <div class="released-game-nav-item">
-                                    <img src="img/images/release_game_nav01.jpg" alt="">
-                                </div>
-                                <div class="released-game-nav-item">
-                                    <img src="img/images/release_game_nav02.jpg" alt="">
-                                </div>
-                                <div class="released-game-nav-item">
-                                    <img src="img/images/release_game_nav03.jpg" alt="">
-                                </div>
-                                <div class="released-game-nav-item">
-                                    <img src="img/images/release_game_nav04.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- new-games-area-end -->
-
-            <!-- gamers-area -->
-            <section class="just-gamers-area just-gamers-bg pt-115 pb-120">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-6 col-md-10">
-                            <div class="section-title title-style-three white-title mb-70">
-                                <h2>JUST FOR <span>GAMERS</span></h2>
-                                <p>Wield a combination of upgradeable elemental powers and 
-                                    ghost-hunting skills to combat the supernatural threat.</p>
-                            </div>
-                            <div class="just-gamers-list">
-                                <ul>
-                                    <li>
-                                        <div class="just-gamers-list-icon">
-                                            <img src="img/icon/gamer_list_icon01.png" alt="">
-                                        </div>
-                                        <div class="just-gamers-list-content fix">
-                                            <h5>About this Game</h5>
-                                            <p>Explore a unique vision of Tokyo twisted by a supernatural presence.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="just-gamers-list-icon">
-                                            <img src="img/icon/gamer_list_icon02.png" alt="">
-                                        </div>
-                                        <div class="just-gamers-list-content fix">
-                                            <h5>Design & Strategy</h5>
-                                            <p>Explore a unique vision of Tokyo twisted by a supernatural presence. </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="just-gamers-list-icon">
-                                            <img src="img/icon/gamer_list_icon03.png" alt="">
-                                        </div>
-                                        <div class="just-gamers-list-content fix">
-                                            <h5>Objectives</h5>
-                                            <p>Explore a unique vision of Tokyo twisted by a supernatural presence.</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-6 d-none d-lg-block">
-                            <div class="just-gamers-img">
-                                <img src="img/images/just_gamers_img.png" alt="" class="just-gamers-character">
-                                <div class="just-gamers-circle-shape">
-                                    <img src="img/images/gamers_circle_line.png" alt="">
-                                    <img src="img/images/gamers_circle_shape.png" alt="" class="rotateme">
-                                </div>
-                                <img src="img/images/just_gamers_chart.png" alt="" class="gamers-chart-shape">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- gamers-area-end -->
-
-            <!-- featured-game-area -->
-            <section class="featured-game-area position-relative pt-115 pb-90">
-                <div class="featured-game-bg"></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="section-title title-style-three text-center mb-70">
-                                <h2>FEATURED <span>GAMES</span></h2>
-                                <p>Here are the featured games and reviews that won't waste your time with unrelated nonsense.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row featured-active">
-                        <div class="col-lg-4 col-sm-6 grid-item">
-                            <div class="featured-game-item mb-30">
-                                <div class="featured-game-thumb">
-                                    <img src="img/images/featured_game_thumb01.jpg" alt="">
-                                </div>
-                                <div class="featured-game-content">
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                                <div class="featured-game-content featured-game-overlay-content">
-                                    <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 grid-item">
-                            <div class="featured-game-item mb-30">
-                                <div class="featured-game-thumb">
-                                    <img src="img/images/featured_game_thumb02.jpg" alt="">
-                                </div>
-                                <div class="featured-game-content">
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                                <div class="featured-game-content featured-game-overlay-content">
-                                    <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 grid-item">
-                            <div class="featured-game-item mb-30">
-                                <div class="featured-game-thumb">
-                                    <img src="img/images/featured_game_thumb03.jpg" alt="">
-                                </div>
-                                <div class="featured-game-content">
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                                <div class="featured-game-content featured-game-overlay-content">
-                                    <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 grid-item">
-                            <div class="featured-game-item mb-30">
-                                <div class="featured-game-thumb">
-                                    <img src="img/images/featured_game_thumb04.jpg" alt="">
-                                </div>
-                                <div class="featured-game-content">
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                                <div class="featured-game-content featured-game-overlay-content">
-                                    <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 grid-item">
-                            <div class="featured-game-item mb-30">
-                                <div class="featured-game-thumb">
-                                    <img src="img/images/featured_game_thumb06.jpg" alt="">
-                                </div>
-                                <div class="featured-game-content">
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                                <div class="featured-game-content featured-game-overlay-content">
-                                    <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 grid-item">
-                            <div class="featured-game-item mb-30">
-                                <div class="featured-game-thumb">
-                                    <img src="img/images/featured_game_thumb05.jpg" alt="">
-                                </div>
-                                <div class="featured-game-content">
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                                <div class="featured-game-content featured-game-overlay-content">
-                                    <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
-                                    <h4><a href="#">FEATURED <span>GAMES</span></a></h4>
-                                    <div class="featured-game-meta">
-                                        <i class="fas fa-bell"></i>
-                                        <span>PC, Console</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- featured-game-area-end -->
-
-            <!-- cta-area -->
-            <section class="cta-area cta-bg">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="cta-img">
-                                <img src="img/images/cta_img.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cta-content">
-                                <div class="cta-icon mb-15">
-                                    <img src="img/icon/cta_icon.png" alt="">
-                                </div>
-                                <div class="section-title title-style-three white-title mb-50">
-                                    <h2>BE THE <span>CHAMPION</span></h2>
-                                    <p>Do you have what it takes to be the next champion? Join our esport team now.</p>
-                                </div>
-                                <div class="cta-btn">
-                                    <a href="game-overview.php" class="btn btn-style-two">JOIN NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- cta-area-end -->
-
-            <!-- shop-area -->
-            <section class="shop-area black-bg pt-115 pb-90">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="section-title title-style-three white-title text-center mb-40">
-                                <h2>Gaming Products <span>Corner</span></h2>
-                                <p>Shop the latest Gaming products such as ASUS, MSI, RAZER, ACER and more!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row product-active">
-                        <div class="col-xl-3">
-                            <div class="shop-item">
-                                <div class="product-thumb">
-                                    <a href="#"><img src="img/product/s_product_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="product-content">
-                                    <div class="product-tag"><a href="#">Laptop</a></div>
-                                    <h4><a href="#">Asus ROG Zephyrus G14 22</a></h4>
-                                    <div class="product-meta">
-                                        <div class="product-price">
-                                            <h5>₱86,443.88</h5>
-                                        </div>
-                                        <div class="product-cart-action">
-                                            <a href="#"><i class="fas fa-shopping-basket"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="shop-item">
-                                <div class="product-thumb">
-                                    <a href="#"><img src="img/product/s_product_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="product-content">
-                                    <div class="product-tag"><a href="#">Headphones</a></div>
-                                    <h4><a href="#">Logitech G733</a></h4>
-                                    <div class="product-meta">
-                                        <div class="product-price">
-                                            <h5>₱12,300</h5>
-                                        </div>
-                                        <div class="product-cart-action">
-                                            <a href="#"><i class="fas fa-shopping-basket"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="shop-item">
-                                <div class="product-thumb">
-                                    <a href="#"><img src="img/product/s_product_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="product-content">
-                                    <div class="product-tag"><a href="#">graphics</a></div>
-                                    <h4><a href="#">GeForce RTX 3060</a></h4>
-                                    <div class="product-meta">
-                                        <div class="product-price">
-                                            <h5>₱36,517.51</h5>
-                                        </div>
-                                        <div class="product-cart-action">
-                                            <a href="#"><i class="fas fa-shopping-basket"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="shop-item">
-                                <div class="product-thumb">
-                                    <a href="#"><img src="img/product/s_product_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="product-content">
-                                    <div class="product-tag"><a href="#">Chair</a></div>
-                                    <h4><a href="#">Secret Titan Evo 22</a></h4>
-                                    <div class="product-meta">
-                                        <div class="product-price">
-                                            <h5>₱26,399.5</h5>
-                                        </div>
-                                        <div class="product-cart-action">
-                                            <a href="#"><i class="fas fa-shopping-basket"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="shop-item">
-                                <div class="product-thumb">
-                                    <a href="#"><img src="img/product/s_product_img05.jpg" alt=""></a>
-                                </div>
-                                <div class="product-content">
-                                    <div class="product-tag"><a href="#">Monitor</a></div>
-                                    <h4><a href="#">Razer Raptor 27</a></h4>
-                                    <div class="product-meta">
-                                        <div class="product-price">
-                                            <h5>₱41,779.48</h5>
-                                        </div>
-                                        <div class="product-cart-action">
-                                            <a href="#"><i class="fas fa-shopping-basket"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- shop-area-end -->
-
-            <!-- blog-area -->
-            <section class="blog-area pt-115 pb-120">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="section-title title-style-three text-center mb-70">
-                                <h2>Latest News <span>Articles</span></h2>
-                                <p>Here are the lates news articales related to gaming.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-post blog-style-two mb-50">
-                                <div class="blog-thumb mb-30">
-                                    <a href="#"><img src="img/blog/s_blog_thumb01.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-post-content">
-                                    <h4><a href="#">Finding A PS5 Might Get Easier This Year</a></h4>
-                                    <div class="blog-meta">
-                                        <ul>
-                                            <li><i class="far fa-clock"></i>March 24, 2022</li>
-                                            <li><i class="fas fa-tag"></i><a href="#">Console</a></li>
-                                        </ul>
-                                    </div>
-                                    <p style="text-align: justify">Sony has projected it will sell many millions more PlayStation 5 units in the current fiscal year and this could be a sign that the company [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-post blog-style-two mb-50">
-                                <div class="blog-thumb mb-30">
-                                    <a href="#"><img src="img/blog/s_blog_thumb02.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-post-content">
-                                    <h4><a href="#">Gotham Knights Will Only Be Available On PC and Consoles</a></h4>
-                                    <div class="blog-meta">
-                                        <ul>
-                                            <li><i class="far fa-clock"></i>March 24, 2022</li>
-                                            <li><i class="fas fa-tag"></i><a href="#">Game</a></li>
-                                        </ul>
-                                    </div>
-                                    <p style="text-align: justify">Gotham Knights developer Warner Bros. Montreal has revealed new gameplay footage for its upcoming [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-post blog-style-two mb-50">
-                                <div class="blog-thumb mb-30">
-                                    <a href="#"><img src="img/blog/s_blog_thumb03.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-post-content">
-                                    <h4><a href="#">GameStop now has its own wallet for crypto and NFTs</a></h4>
-                                    <div class="blog-meta">
-                                        <ul>
-                                            <li><i class="far fa-clock"></i>March 25, 2022</li>
-                                            <li><i class="fas fa-tag"></i><a href="#">Crypto</a></li>
-                                        </ul>
-                                    </div>
-                                    <p style="text-align: justify">GameStop has launched a beta for its very own Ethereum wallet that will let users store, send, and receive [...]</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- blog-area-end -->
-
-        </main>
-        <!-- main-area-end -->
-
-        <!-- footer-area -->
-        <footer>
-            <div class="footer-top footer-bg s-footer-bg">
-                <!-- newsletter-area -->
-                <div class="newsletter-area s-newsletter-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="newsletter-wrap">
-                                    <div class="section-title newsletter-title">
-                                        <h2>Our <span>Newsletter</span></h2>
-                                    </div>
-                                    <div class="newsletter-form">
-                                        <form action="#">
-                                            <div class="newsletter-form-grp">
-                                                <i class="far fa-envelope"></i>
-                                                <input type="email" placeholder="Enter your email..">
-                                            </div>
-                                            <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- newsletter-area-end -->
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="footer-widget mb-50">
-                                <div class="footer-logo mb-35">
-                                    <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
-                                </div>
-                                <div class="footer-text">
-                                    <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
-                                    <div class="footer-contact">
-                                        <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>
-                                            <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Links</h5>
-                                </div>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="home.php">Home</a></li>
-                                        <li><a href="about-us.php">Our Story</a></li>
-                                        <li><a href="game-overview.php">Overview</a></li>
-                                        <li><a href="community.php">Community</a></li>
-                                        <li><a href="shop.php">Store</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Need Help?</h5>
-                                </div>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Refund Policy</a></li>
-                                        <li><a href="#">Affiliate</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Follow us</h5>
-                                </div>
-                                <div class="footer-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
-                                    <h5>Newsletter Sign Up</h5>
-                                </div>
-                                <div class="footer-newsletter">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter your email">
-                                        <button><i class="fas fa-rocket"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>
-                <div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>
-            </div>
-            <div class="copyright-wrap s-copyright-wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="copyright-text">
-                                <p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 d-none d-md-block">
-                            <div class="payment-method-img text-right">
-                                <img src="img/images/card_img.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer-area-end -->
+    <?php
+echo '<body>';
+echo '';
+echo '<!-- preloader -->';
+echo '<div id="preloader">';
+echo '<div id="loading-center">';
+echo '<div id="loading-center-absolute">';
+echo '<img src="img/icon/preloader.svg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!-- preloader-end -->';
+echo '';
+echo '<!-- header-area -->';
+echo '<header>';
+echo '<div class="header-top-area s-header-top-area d-none d-lg-block">';
+echo '<div class="container-fluid s-container-full-padding">';
+echo '<div class="row align-items-center">';
+echo '<div class="col-lg-6 d-none d-lg-block">';
+echo '<div class="header-top-offer">';
+echo '<p>Exclusive BLACK FRIDAY offer!</p>';
+echo '<span class="coming-time" data-countdown="2022/6/31"></span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-6">';
+echo '<div class="header-top-right">';
+echo '<div class="header-social">';
+echo '<ul>';
+echo '<!-- BUTTON -->';
+echo '<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-twitter"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="header-top-action">';
+echo '<ul>';
+echo '<li>';
+echo '<div class="header-top-mail">';
+echo '<p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">tjtimtiman121901@gmail.com</a></p>';
+echo '</div>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div id="sticky-header" class="transparent-header">';
+echo '<div class="container-fluid s-container-full-padding">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="main-menu menu-style-two">';
+echo '<nav>';
+echo '<div class="logo">';
+echo '<a href="home.php"><img src="img/logo/logo.png" alt="Logo"></a>';
+echo '</div>';
+echo '<div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">';
+echo '<ul>';
+echo '<li class="show"><a href="home.php">Home</a>';
+echo '</li>';
+echo '<li><a href="#">About</a>';
+echo '<ul class="submenu">';
+echo '<li><a href="about-us.php">our story</a></li>';
+echo '<li><a href="upcoming-games.php">Upcoming Games</a></li>';
+echo '</ul>';
+echo '</li>';
+echo '<li><a href="game-overview.php">Overview</a></li>';
+echo '<li><a href="community.php">Community</a></li>';
+echo '<li><a href="shop.php">Store</a></li>';
+echo '<li><a href="blog.php">Blog</a>';
+echo '</li>';
+echo '<li><a href="contact.php">contact</a></li>';
+echo '<li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>';
+echo '<ul class="submenu">';
+echo '<li><a href="#">Account Settings</a></li>';
+echo '<li><a href="#">Orders History</a></li>';
+echo '<li><a href="#">Activity</a></li>';
+echo '<li><a href="#">Notification</a></li>';
+echo '<li><a href="#">Messages</a></li>';
+echo '<li><a href="index.php">Logout</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '<div class="header-action">';
+echo '<ul>';
+echo '';
+echo '<li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>';
+echo '<ul class="minicart">';
+echo '<li class="d-flex align-items-start">';
+echo '<div class="cart-img">';
+echo '<a href="#">';
+echo '<img src="img/product/cart_p01.jpg" alt="">';
+echo '</a>';
+echo '</div>';
+echo '<div class="cart-content">';
+echo '<h4>';
+echo '<a href="#">ASUS ROG ZEPHYRUS G14 22</a>';
+echo '</h4>';
+echo '<div class="cart-price">';
+echo '<span class="new">₱89,000.00</span>';
+echo '<span>';
+echo '<del>₱89,000.00</del>';
+echo '</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="del-icon">';
+echo '<a href="#">';
+echo '<i class="far fa-trash-alt"></i>';
+echo '</a>';
+echo '</div>';
+echo '</li>';
+echo '<li>';
+echo '<div class="total-price">';
+echo '<span class="f-left">Total:</span>';
+echo '<span class="f-right">₱90,000.00</span>';
+echo '</div>';
+echo '</li>';
+echo '<li>';
+echo '<div class="checkout-link">';
+echo '<a href="#">Shopping Cart</a>';
+echo '<a class="red-color" href="#">Checkout</a>';
+echo '</div>';
+echo '</li>';
+echo '</ul>';
+echo '</li>';
+echo '<li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</nav>';
+echo '</div>';
+echo '<div class="mobile-menu"></div>';
+echo '</div>';
+echo '<!-- Modal Search -->';
+echo '<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">';
+echo '<div class="modal-dialog" role="document">';
+echo '<div class="modal-content">';
+echo '<form>';
+echo '<input type="text" placeholder="Search here...">';
+echo '<button><i class="fa fa-search"></i></button>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</header>';
+echo '<!-- header-area-end -->';
+echo '';
+echo '<!-- main-area -->';
+echo '<main>';
+echo '';
+echo '<!-- slider-area -->';
+echo '<section class="slider-area">';
+echo '<div class="slider-active">';
+echo '<div class="single-slider slider-bg slider-style-two">';
+echo '<div class="container-fluid container-full-padding">';
+echo '<div class="row">';
+echo '<div class="col-xl-6 col-lg-7 col-md-11">';
+echo '<div class="slider-content">';
+echo '<h6 data-animation="fadeInUp" data-delay=".4s">Gaming world</h6>';
+echo '<h2 data-animation="fadeInUp" data-delay=".4s">Daily <span>Gaming</span> Updates</h2>';
+echo '<p data-animation="fadeInUp" data-delay=".6s">The Vessel gaming section brings the latest video game news, reviews of the most exciting releases, and interviews with the industry’s biggest names.';
+echo '</p>';
+echo '<a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/slider_img01.png" alt=""></div>';
+echo '<div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/slider_img02.png" alt=""></div>';
+echo '<div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>';
+echo '</div>';
+echo '<div class="single-slider slider-bg slider-style-two" style="background-image: url(img/slider/slider_bg.jpg);">';
+echo '<div class="container-fluid container-full-padding">';
+echo '<div class="row">';
+echo '<div class="col-xl-6 col-lg-7 col-md-11">';
+echo '<div class="slider-content">';
+echo '<h6 data-animation="fadeInUp" data-delay=".4s">TOP GAMES</h6>';
+echo '<h2 data-animation="fadeInUp" data-delay=".4s">Valorant <span>Riot</span> Games</h2>';
+echo '<p data-animation="fadeInUp" data-delay=".6s">A free-to-play 5v5 character-based tactical shooter and objective-based game, developed and published by Riot Games,</p>';
+echo '<a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/slider_img01.png" alt=""></div>';
+echo '<div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/slider_img02.png" alt=""></div>';
+echo '<div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- slider-area-end -->';
+echo '';
+echo '<!-- new-games-area -->';
+echo '<section class="released-games-area gray-bg pt-115 pb-70">';
+echo '<div class="container">';
+echo '<div class="row justify-content-center">';
+echo '<div class="col-xl-6 col-lg-8">';
+echo '<div class="section-title title-style-three text-center mb-20">';
+echo '<h2>TRENDING <span>GAMES</span></h2>';
+echo '<p>Here are the hottest games and reviews that will not waste your time with unrelated nonsense.</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row align-items-center">';
+echo '<div class="col-xl-8 col-lg-12">';
+echo '<div class="released-game-active">';
+echo '<div class="released-game-carousel">';
+echo '<div class="released-game-item">';
+echo '<div class="released-game-item-bg"></div>';
+echo '<div class="released-game-img">';
+echo '<img src="img/images/released_game_img01.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-content">';
+echo '<div class="released-game-rating">';
+echo '<h5>Rating :</h5>';
+echo '<div class="released-rating">';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '</div>';
+echo '</div>';
+echo '<h4>Valo<span>rant</span></h4>';
+echo '<div class="released-game-list mb-15">';
+echo '<ul>';
+echo '<li><span>Genre :</span>First Person Shooter</li>';
+echo '<li><span>Developer :</span>Riot Games</li>';
+echo '<li><span>Platform :</span>PC</li>';
+echo '</ul>';
+echo '</div>';
+echo '<p>Compete with other 5 players where one team attacks and the other defends. Search and Destroy.</p>';
+echo '<a href="game-single.php" class="btn btn-style-two">play Now</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="released-game-carousel">';
+echo '<div class="released-game-item">';
+echo '<div class="released-game-item-bg"></div>';
+echo '<div class="released-game-img">';
+echo '<img src="img/images/released_game_img02.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-content">';
+echo '<div class="released-game-rating">';
+echo '<h5>Rating :</h5>';
+echo '<div class="released-rating">';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '</div>';
+echo '</div>';
+echo '<h4>Mine<span>craft</span></h4>';
+echo '<div class="released-game-list mb-15">';
+echo '<ul>';
+echo '<li><span>Genre :</span>Simulation, Sandbox</li>';
+echo '<li><span>Developer :</span>Mojang Studios</li>';
+echo '<li><span>Platform :</span>PC, Console, Mobile Devices</li>';
+echo '</ul>';
+echo '</div>';
+echo '<p>Explore infinite worlds, create, explore and survive alone or with friends</p>';
+echo '<a href="game-single2.php" class="btn btn-style-two">buy now</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="released-game-carousel">';
+echo '<div class="released-game-item">';
+echo '<div class="released-game-item-bg"></div>';
+echo '<div class="released-game-img">';
+echo '<img src="img/images/released_game_img03.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-content">';
+echo '<div class="released-game-rating">';
+echo '<h5>Rating :</h5>';
+echo '<div class="released-rating">';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '</div>';
+echo '</div>';
+echo '<h4>GhostWire <span>Tokyo</span></h4>';
+echo '<div class="released-game-list mb-15">';
+echo '<ul>';
+echo '<li><span>Genre :</span>Action, Adventure, RPG</li>';
+echo '<li><span>Developer :</span>Bethesda</li>';
+echo '<li><span>Platform :</span>PC, COnsole</li>';
+echo '</ul>';
+echo '</div>';
+echo '<p>Master a powerful arsenal of abilities to unravel the dark truth as you FACE THE UNKNOWN in Ghostwire: Tokyo.</p>';
+echo '<a href="game-single2.php" class="btn btn-style-two">buy now</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="released-game-carousel">';
+echo '<div class="released-game-item">';
+echo '<div class="released-game-item-bg"></div>';
+echo '<div class="released-game-img">';
+echo '<img src="img/images/released_game_img04.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-content">';
+echo '<div class="released-game-rating">';
+echo '<h5>Rating :</h5>';
+echo '<div class="released-rating">';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '<i class="fas fa-star"></i>';
+echo '</div>';
+echo '</div>';
+echo '<h4>Dying<span>Light 2</span></h4>';
+echo '<div class="released-game-list mb-15">';
+echo '<ul>';
+echo '<li><span>Genre :</span>Action, Adventure, RPG</li>';
+echo '<li><span>Developer :</span>Techland</li>';
+echo '<li><span>Platform :</span>PC, Console</li>';
+echo '</ul>';
+echo '</div>';
+echo '<p>Use your agility and combat skills to survive, and reshape the world. Your choices matter</p>';
+echo '<a href="game-single2.php" class="btn btn-style-two">buy now</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-4 col-lg-12">';
+echo '<div class="released-game-nav">';
+echo '<div class="released-game-nav-item">';
+echo '<img src="img/images/release_game_nav01.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-nav-item">';
+echo '<img src="img/images/release_game_nav02.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-nav-item">';
+echo '<img src="img/images/release_game_nav03.jpg" alt="">';
+echo '</div>';
+echo '<div class="released-game-nav-item">';
+echo '<img src="img/images/release_game_nav04.jpg" alt="">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- new-games-area-end -->';
+echo '';
+echo '<!-- gamers-area -->';
+echo '<section class="just-gamers-area just-gamers-bg pt-115 pb-120">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-xl-5 col-lg-6 col-md-10">';
+echo '<div class="section-title title-style-three white-title mb-70">';
+echo '<h2>JUST FOR <span>GAMERS</span></h2>';
+echo '<p>Wield a combination of upgradeable elemental powers and';
+echo 'ghost-hunting skills to combat the supernatural threat.</p>';
+echo '</div>';
+echo '<div class="just-gamers-list">';
+echo '<ul>';
+echo '<li>';
+echo '<div class="just-gamers-list-icon">';
+echo '<img src="img/icon/gamer_list_icon01.png" alt="">';
+echo '</div>';
+echo '<div class="just-gamers-list-content fix">';
+echo '<h5>About this Game</h5>';
+echo '<p>Explore a unique vision of Tokyo twisted by a supernatural presence.</p>';
+echo '</div>';
+echo '</li>';
+echo '<li>';
+echo '<div class="just-gamers-list-icon">';
+echo '<img src="img/icon/gamer_list_icon02.png" alt="">';
+echo '</div>';
+echo '<div class="just-gamers-list-content fix">';
+echo '<h5>Design & Strategy</h5>';
+echo '<p>Explore a unique vision of Tokyo twisted by a supernatural presence. </p>';
+echo '</div>';
+echo '</li>';
+echo '<li>';
+echo '<div class="just-gamers-list-icon">';
+echo '<img src="img/icon/gamer_list_icon03.png" alt="">';
+echo '</div>';
+echo '<div class="just-gamers-list-content fix">';
+echo '<h5>Objectives</h5>';
+echo '<p>Explore a unique vision of Tokyo twisted by a supernatural presence.</p>';
+echo '</div>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-7 col-lg-6 d-none d-lg-block">';
+echo '<div class="just-gamers-img">';
+echo '<img src="img/images/just_gamers_img.png" alt="" class="just-gamers-character">';
+echo '<div class="just-gamers-circle-shape">';
+echo '<img src="img/images/gamers_circle_line.png" alt="">';
+echo '<img src="img/images/gamers_circle_shape.png" alt="" class="rotateme">';
+echo '</div>';
+echo '<img src="img/images/just_gamers_chart.png" alt="" class="gamers-chart-shape">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- gamers-area-end -->';
+echo '';
+echo '<!-- featured-game-area -->';
+echo '<section class="featured-game-area position-relative pt-115 pb-90">';
+echo '<div class="featured-game-bg"></div>';
+echo '<div class="container">';
+echo '<div class="row justify-content-center">';
+echo '<div class="col-xl-6 col-lg-8">';
+echo '<div class="section-title title-style-three text-center mb-70">';
+echo '<h2>FEATURED <span>GAMES</span></h2>';
+echo '<p>Here are the featured games and reviews that will not waste your time with unrelated nonsense.</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row featured-active">';
+echo '<div class="col-lg-4 col-sm-6 grid-item">';
+echo '<div class="featured-game-item mb-30">';
+echo '<div class="featured-game-thumb">';
+echo '<img src="img/images/featured_game_thumb01.jpg" alt="">';
+echo '</div>';
+echo '<div class="featured-game-content">';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="featured-game-content featured-game-overlay-content">';
+echo '<div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6 grid-item">';
+echo '<div class="featured-game-item mb-30">';
+echo '<div class="featured-game-thumb">';
+echo '<img src="img/images/featured_game_thumb02.jpg" alt="">';
+echo '</div>';
+echo '<div class="featured-game-content">';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="featured-game-content featured-game-overlay-content">';
+echo '<div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6 grid-item">';
+echo '<div class="featured-game-item mb-30">';
+echo '<div class="featured-game-thumb">';
+echo '<img src="img/images/featured_game_thumb03.jpg" alt="">';
+echo '</div>';
+echo '<div class="featured-game-content">';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="featured-game-content featured-game-overlay-content">';
+echo '<div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6 grid-item">';
+echo '<div class="featured-game-item mb-30">';
+echo '<div class="featured-game-thumb">';
+echo '<img src="img/images/featured_game_thumb04.jpg" alt="">';
+echo '</div>';
+echo '<div class="featured-game-content">';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="featured-game-content featured-game-overlay-content">';
+echo '<div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6 grid-item">';
+echo '<div class="featured-game-item mb-30">';
+echo '<div class="featured-game-thumb">';
+echo '<img src="img/images/featured_game_thumb06.jpg" alt="">';
+echo '</div>';
+echo '<div class="featured-game-content">';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="featured-game-content featured-game-overlay-content">';
+echo '<div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-sm-6 grid-item">';
+echo '<div class="featured-game-item mb-30">';
+echo '<div class="featured-game-thumb">';
+echo '<img src="img/images/featured_game_thumb05.jpg" alt="">';
+echo '</div>';
+echo '<div class="featured-game-content">';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '<div class="featured-game-content featured-game-overlay-content">';
+echo '<div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>';
+echo '<h4><a href="#">FEATURED <span>GAMES</span></a></h4>';
+echo '<div class="featured-game-meta">';
+echo '<i class="fas fa-bell"></i>';
+echo '<span>PC, Console</span>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- featured-game-area-end -->';
+echo '';
+echo '<!-- cta-area -->';
+echo '<section class="cta-area cta-bg">';
+echo '<div class="container">';
+echo '<div class="row align-items-center justify-content-between">';
+echo '<div class="col-xl-5 col-lg-6">';
+echo '<div class="cta-img">';
+echo '<img src="img/images/cta_img.png" alt="">';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-6">';
+echo '<div class="cta-content">';
+echo '<div class="cta-icon mb-15">';
+echo '<img src="img/icon/cta_icon.png" alt="">';
+echo '</div>';
+echo '<div class="section-title title-style-three white-title mb-50">';
+echo '<h2>BE THE <span>CHAMPION</span></h2>';
+echo '<p>Do you have what it takes to be the next champion? Join our esport team now.</p>';
+echo '</div>';
+echo '<div class="cta-btn">';
+echo '<a href="game-overview.php" class="btn btn-style-two">JOIN NOW</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- cta-area-end -->';
+echo '';
+echo '<!-- shop-area -->';
+echo '<section class="shop-area black-bg pt-115 pb-90">';
+echo '<div class="container">';
+echo '<div class="row justify-content-center">';
+echo '<div class="col-xl-6 col-lg-8">';
+echo '<div class="section-title title-style-three white-title text-center mb-40">';
+echo '<h2>Gaming Products <span>Corner</span></h2>';
+echo '<p>Shop the latest Gaming products such as ASUS, MSI, RAZER, ACER and more!</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row product-active">';
+echo '<div class="col-xl-3">';
+echo '<div class="shop-item">';
+echo '<div class="product-thumb">';
+echo '<a href="#"><img src="img/product/s_product_img01.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="product-content">';
+echo '<div class="product-tag"><a href="#">Laptop</a></div>';
+echo '<h4><a href="#">Asus ROG Zephyrus G14 22</a></h4>';
+echo '<div class="product-meta">';
+echo '<div class="product-price">';
+echo '<h5>₱86,443.88</h5>';
+echo '</div>';
+echo '<div class="product-cart-action">';
+echo '<a href="#"><i class="fas fa-shopping-basket"></i></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-3">';
+echo '<div class="shop-item">';
+echo '<div class="product-thumb">';
+echo '<a href="#"><img src="img/product/s_product_img02.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="product-content">';
+echo '<div class="product-tag"><a href="#">Headphones</a></div>';
+echo '<h4><a href="#">Logitech G733</a></h4>';
+echo '<div class="product-meta">';
+echo '<div class="product-price">';
+echo '<h5>₱12,300</h5>';
+echo '</div>';
+echo '<div class="product-cart-action">';
+echo '<a href="#"><i class="fas fa-shopping-basket"></i></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-3">';
+echo '<div class="shop-item">';
+echo '<div class="product-thumb">';
+echo '<a href="#"><img src="img/product/s_product_img03.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="product-content">';
+echo '<div class="product-tag"><a href="#">graphics</a></div>';
+echo '<h4><a href="#">GeForce RTX 3060</a></h4>';
+echo '<div class="product-meta">';
+echo '<div class="product-price">';
+echo '<h5>₱36,517.51</h5>';
+echo '</div>';
+echo '<div class="product-cart-action">';
+echo '<a href="#"><i class="fas fa-shopping-basket"></i></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-3">';
+echo '<div class="shop-item">';
+echo '<div class="product-thumb">';
+echo '<a href="#"><img src="img/product/s_product_img04.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="product-content">';
+echo '<div class="product-tag"><a href="#">Chair</a></div>';
+echo '<h4><a href="#">Secret Titan Evo 22</a></h4>';
+echo '<div class="product-meta">';
+echo '<div class="product-price">';
+echo '<h5>₱26,399.5</h5>';
+echo '</div>';
+echo '<div class="product-cart-action">';
+echo '<a href="#"><i class="fas fa-shopping-basket"></i></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-3">';
+echo '<div class="shop-item">';
+echo '<div class="product-thumb">';
+echo '<a href="#"><img src="img/product/s_product_img05.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="product-content">';
+echo '<div class="product-tag"><a href="#">Monitor</a></div>';
+echo '<h4><a href="#">Razer Raptor 27</a></h4>';
+echo '<div class="product-meta">';
+echo '<div class="product-price">';
+echo '<h5>₱41,779.48</h5>';
+echo '</div>';
+echo '<div class="product-cart-action">';
+echo '<a href="#"><i class="fas fa-shopping-basket"></i></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- shop-area-end -->';
+echo '';
+echo '<!-- blog-area -->';
+echo '<section class="blog-area pt-115 pb-120">';
+echo '<div class="container">';
+echo '<div class="row justify-content-center">';
+echo '<div class="col-xl-6 col-lg-8">';
+echo '<div class="section-title title-style-three text-center mb-70">';
+echo '<h2>Latest News <span>Articles</span></h2>';
+echo '<p>Here are the lates news articales related to gaming.</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="col-lg-4 col-md-6">';
+echo '<div class="blog-post blog-style-two mb-50">';
+echo '<div class="blog-thumb mb-30">';
+echo '<a href="#"><img src="img/blog/s_blog_thumb01.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="blog-post-content">';
+echo '<h4><a href="#">Finding A PS5 Might Get Easier This Year</a></h4>';
+echo '<div class="blog-meta">';
+echo '<ul>';
+echo '<li><i class="far fa-clock"></i>March 24, 2022</li>';
+echo '<li><i class="fas fa-tag"></i><a href="#">Console</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<p style="text-align: justify">Sony has projected it will sell many millions more PlayStation 5 units in the current fiscal year and this could be a sign that the company [...]</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-md-6">';
+echo '<div class="blog-post blog-style-two mb-50">';
+echo '<div class="blog-thumb mb-30">';
+echo '<a href="#"><img src="img/blog/s_blog_thumb02.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="blog-post-content">';
+echo '<h4><a href="#">Gotham Knights Will Only Be Available On PC and Consoles</a></h4>';
+echo '<div class="blog-meta">';
+echo '<ul>';
+echo '<li><i class="far fa-clock"></i>March 24, 2022</li>';
+echo '<li><i class="fas fa-tag"></i><a href="#">Game</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<p style="text-align: justify">Gotham Knights developer Warner Bros. Montreal has revealed new gameplay footage for its upcoming [...]</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-4 col-md-6">';
+echo '<div class="blog-post blog-style-two mb-50">';
+echo '<div class="blog-thumb mb-30">';
+echo '<a href="#"><img src="img/blog/s_blog_thumb03.jpg" alt=""></a>';
+echo '</div>';
+echo '<div class="blog-post-content">';
+echo '<h4><a href="#">GameStop now has its own wallet for crypto and NFTs</a></h4>';
+echo '<div class="blog-meta">';
+echo '<ul>';
+echo '<li><i class="far fa-clock"></i>March 25, 2022</li>';
+echo '<li><i class="fas fa-tag"></i><a href="#">Crypto</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<p style="text-align: justify">GameStop has launched a beta for its very own Ethereum wallet that will let users store, send, and receive [...]</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!-- blog-area-end -->';
+echo '';
+echo '</main>';
+echo '<!-- main-area-end -->';
+echo '';
+echo '<!-- footer-area -->';
+echo '<footer>';
+echo '<div class="footer-top footer-bg s-footer-bg">';
+echo '<!-- newsletter-area -->';
+echo '<div class="newsletter-area s-newsletter-area">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-12">';
+echo '<div class="newsletter-wrap">';
+echo '<div class="section-title newsletter-title">';
+echo '<h2>Our <span>Newsletter</span></h2>';
+echo '</div>';
+echo '<div class="newsletter-form">';
+echo '<form action="#">';
+echo '<div class="newsletter-form-grp">';
+echo '<i class="far fa-envelope"></i>';
+echo '<input type="email" placeholder="Enter your email..">';
+echo '</div>';
+echo '<button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!-- newsletter-area-end -->';
+echo '<div class="container">';
+echo '<div class="row justify-content-between">';
+echo '<div class="col-xl-3 col-lg-4 col-md-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="footer-logo mb-35">';
+echo '<a href="index.html"><img src="img/logo/logo.png" alt=""></a>';
+echo '</div>';
+echo '<div class="footer-text">';
+echo '<p>Gemas marketplace the relase etras thats sheets continig passag.</p>';
+echo '<div class="footer-contact">';
+echo '<ul>';
+echo '<li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>Bangbangalon, Boac, Marinduque</li>';
+echo '<li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>';
+echo '<li><i class="fas fa-envelope-open"></i><span>Email : </span>tjtimtiman121901@gmail.com</li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-2 col-lg-3 col-sm-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Links</h5>';
+echo '</div>';
+echo '<div class="fw-link">';
+echo '<ul>';
+echo '<li><a href="home.php">Home</a></li>';
+echo '<li><a href="about-us.php">Our Story</a></li>';
+echo '<li><a href="game-overview.php">Overview</a></li>';
+echo '<li><a href="community.php">Community</a></li>';
+echo '<li><a href="shop.php">Store</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-2 col-lg-3 col-sm-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Need Help?</h5>';
+echo '</div>';
+echo '<div class="fw-link">';
+echo '<ul>';
+echo '<li><a href="#">Terms & Conditions</a></li>';
+echo '<li><a href="#">Privacy Policy</a></li>';
+echo '<li><a href="#">Refund Policy</a></li>';
+echo '<li><a href="#">Affiliate</a></li>';
+echo '<li><a href="#">FAQ</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-xl-3 col-lg-4 col-md-6">';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Follow us</h5>';
+echo '</div>';
+echo '<div class="footer-social">';
+echo '<ul>';
+echo '<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-twitter"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>';
+echo '<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '<div class="footer-widget mb-50">';
+echo '<div class="fw-title mb-35">';
+echo '<h5>Newsletter Sign Up</h5>';
+echo '</div>';
+echo '<div class="footer-newsletter">';
+echo '<form action="#">';
+echo '<input type="text" placeholder="Enter your email">';
+echo '<button><i class="fas fa-rocket"></i></button>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="footer-fire"><img src="img/images/sword_fire.png" alt=""></div>';
+echo '<div class="footer-fire footer-fire-right"><img src="img/images/sword_ice.png" alt=""></div>';
+echo '</div>';
+echo '<div class="copyright-wrap s-copyright-wrap">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '<div class="col-lg-6 col-md-6">';
+echo '<div class="copyright-text">';
+echo '<p>Copyright © 2022 <a href="#">Vessel</a> All Rights Reserved.</p>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-lg-6 col-md-6 d-none d-md-block">';
+echo '<div class="payment-method-img text-right">';
+echo '<img src="img/images/card_img.png" alt="img">';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</footer>';
+echo '<!-- footer-area-end -->';
+?>
 
 
 

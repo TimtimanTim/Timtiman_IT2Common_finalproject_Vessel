@@ -66,41 +66,41 @@ echo '<div class="form-items">';
 echo '<h3>Sign In</h3>';
 echo '<p>Log in your account to gain access to the vessel.</p>';
 echo '<form method ="POST">';
-                        if(isset($_REQUEST['notexist'])===true){
-                        echo "<div class='alert alert-danger' role='alert'> Username doest not exist... </div>";
-                        }
-                        else if(isset($_REQUEST['wrongpass']) ===true){
-                            echo "<div class='alert alert-warning' role='alert'> Incorrect Password... </div>";					
-                        }
-                        else if(isset($_REQUEST['success']) ===true){
-                            echo "<div class='alert alert-success' role='alert'> Redirecting... </div>";	
-                            header("Refresh: 5; url=home.php");			
-                        }
-                        else if(isset($_REQUEST['logout']) === true)
-                        {
-                            echo "<div class='alert alert-info' role='alert'> Thank you... </div>";	
-                        }
-                        echo '<input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>';
-                        echo '<input class="form-control" type="password" name="form_password" placeholder="Password" required>';
-                        echo '<div class="form-button">';
-                        echo '<button id="submit" type="submit" class="ibtn" name="login_button">Login </button></a>';
-                        echo '<span> </span><a href="forget.php">Forget password?</a>';
-                        echo '</div>';
-                        echo '</form>';
-                        echo '';
-                        echo '<div class="other-links">';
-                        echo '<div class="text">Or login with</div>';
-                        echo '<a href=""><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>';
-                        echo '</div>';
-                        echo '<div class="page-links">';
-                        echo '<a href="register.php">Create New Account</a>';
-                        echo '';
-                        echo '</div>';
-                        echo '</div>';
-                        echo '</div>';
-                        echo '</div>';
-                        echo '</div>';
-                        echo '</div>';
+if(isset($_REQUEST['notexist'])===true){
+echo "<div class='alert alert-danger' role='alert'> Username doest not exist... </div>";
+}
+else if(isset($_REQUEST['wrongpass']) ===true){
+    echo "<div class='alert alert-warning' role='alert'> Incorrect Password... </div>";					
+}
+else if(isset($_REQUEST['success']) ===true){
+    echo "<div class='alert alert-success' role='alert'> Redirecting... </div>";	
+    header("Refresh: 5; url=home.php");			
+}
+else if(isset($_REQUEST['logout']) === true)
+{
+    echo "<div class='alert alert-info' role='alert'> Thank you... </div>";	
+}
+echo '<input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>';
+echo '<input class="form-control" type="password" name="form_password" placeholder="Password" required>';
+echo '<div class="form-button">';
+echo '<button id="submit" type="submit" class="ibtn" name="login_button">Login </button></a>';
+echo '<span> </span><a href="forget.php">Forget password?</a>';
+echo '</div>';
+echo '</form>';
+echo '';
+echo '<div class="other-links">';
+echo '<div class="text">Or login with</div>';
+echo '<a href=""><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-twitter"></i>Twitter</a>';
+echo '</div>';
+echo '<div class="page-links">';
+echo '<a href="register.php">Create New Account</a>';
+echo '';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
 
 ?>    
 <script src="js_1/jquery.min.js"></script>

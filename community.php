@@ -99,6 +99,15 @@
 
                                             </li>
                                             <li><a href="contact.php">contact</a></li>
+                                            <li class="header-shop-cart"><a href="#"><i class="fas fa-user"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">Account Settings</a></li>
+                                                    <li><a href="#">Orders History</a></li>
+                                                    <li><a href="#">Activity</a></li>
+                                                    <li><a href="#">Notification</a></li>
+                                                    <li><a href="#">Messages</a></li>
+                                                    <li><a href="index.php">Logout</a></li>
+                                                </ul>
                                         </ul>
                                     </div>
                                     <div class="header-action">
